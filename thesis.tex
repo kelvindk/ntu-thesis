@@ -1,0 +1,53 @@
+\documentclass[phd]{ntuthesis}
+
+\usepackage{times}
+\usepackage{verbatim}
+\usepackage{color}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{array}
+
+% Using the tex-text mapping for ligatures etc.
+\defaultfontfeatures{Mapping=tex-text}
+
+% Set the default fonts
+\setmainfont{Times New Roman}
+\setCJKmainfont{微軟正黑體}
+
+% Your information goes here
+\input{ntuvars}
+
+\begin{document}
+
+\frontmatter
+
+\makecover
+
+%\makecertification
+
+%\input{acknowledgements}
+\input{chapters/abstract}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\mainmatter
+
+% Your thesis goes here
+\input{chapters/introduction}
+\input{chapters/related}
+\input{chapters/exploration}
+\input{chapters/bioscope}
+\input{chapters/conclusion}
+%\appendix
+
+\backmatter
+
+\addcontentsline{toc}{chapter}{\bibname}
+\bibliographystyle{abbrv}
+
+% Your bibliography goes here
+\bibliography{thesis}
+
+\end{document}

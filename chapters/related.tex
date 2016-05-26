@@ -1,0 +1,90 @@
+\chapter{Background and Related Work}
+
+In this chapter, we begin by surveying the wearable devices for healthcare applications on the market today. Then, we describe the modern ways that target to rapidly prototype wearable applications. The next section describes the works which build the customized device for their wearable applications. In the last section, we explore the potential design concept to enhance the process of rapid prototyping with flexible and extensible. 
+
+\section{Wearable Devices with Healthcare Applications}
+Recently, a great number of commercial products leverage mobile, sensing and wearable technology to promote people's health in daily life. The smart phone is the versatile and most popular device in everyone's life. The smart phone can be used to sense the vital sign along without additional external sensors. For example, Instant Heart Rate\footnote{Instant Heart Rate 
+\hspace{1cm} http://www.azumio.com/apps/heart-rate/} is a phone application that uses the camera and flashlight on the backside of a phone to sense the heart rate. Strava\footnote{Strava
+\hspace{1cm} http://www.strava.com/} is a phone application that focuses on quantitating the performance of running and cycling exercises using GPS sensor. It also can work with external sensors, including wearable heart rate sensor and/or cycling sensors, to collect more detail information for further analyzing exercise event. 
+
+The wearable devices can not only be an extension of the smart phone but also can work standalone for healthcare applications. Thus, it can reduce the burden of carrying inconvenient device by people and make computing even pervasive.A variety of wearable products successfully immerse in people's daily life in recent years. Wristband is the most common form factor in wearable devices. For example, the Fitbit\footnote{Fitbit
+\hspace{1cm} http://www.fitbit.com} is a popular wristband device that can help people to better understand his/her physical activity. The Apple watch\footnote{Apple Watch
+\hspace{1cm} http://www.apple.com/watch/} and the Android wear\footnote{Android wear
+\hspace{1cm} http://www.android.com/wear/} further enrich potential healthcare application on people's wrist with watch form factor. Much more wearable devices with other form factors introduce many novel applications to promote health. For examples, Under Armour\footnote{Under Armour
+\hspace{1cm} http://www.underarmour.com/} releases a sensor-embedded running shoe that can track and collect running metrics. Athos\footnote{Athos
+\hspace{2cm} http://www.liveathos.com/} is a smart apparel that monitors muscle activities and heart rate to assist training and exercise. X2 xGuard\footnote{X2 Biosystems
+\hspace{1cm} http://www.x2biosystems.com/}\cite{camarillo2013head} is a product that embeds sensors to a mouth guard for tracking athletes accumulated head impacts during participation in contact sports. 
+
+Those emerging commercial products reveal the practical applications with wearable devices and smart phone for sensing human's activity, biosignals and monitoring health status. The forecast for wearable devices worldwide from Gartner\cite{gartner2016wearable} shows that the market of healthcare applications with wearable device is strongly growing in near future. In addition to develop a fantastic technology, the usability is also a key factor to the consequence of a design for wearable application. Because wearable application is highly interactive with human. A proper design process is necessary to result an ideal design that will be accepted by people. However, the design process between ideate, prototype and test typically will undergo many iterations before the design goal is achieved.
+
+
+%\section{Rapid Prototyping in HCI}
+%[tool for UI]
+%[3D printing]
+%[]
+%A proper mechanism of rapid prototyping is always an critical factor to significantly affect the progress of entire design process. Therefore, 
+%some HCI researchers have paid their attention to develop better rapid prototyping .
+%For example, 
+
+\section{Rapid Prototyping for Wearable Applications}
+The iterative design\cite{Nielsen:1993:IUD:618985.619982, tripp1990rapid, van2007design} between ideate, prototype and test is the most costly part in the entire design process.
+The key challenge here is how to rapid prototyping in iterative design. In addition to product developers, academic researchers also have a great demand of seeking an efficient way to speed up the prototyping process. For achieving the design goal, several options can be adopted in different iteration in the design process. At the beginning of the iterative design, a low-fidelity prototype\cite{walker2002high} is the ideal tool to rapidly examine the feasibility, check the usability and refine the ideal with minimum cost of building prototype. However, low-fidelity prototype may not be able to test the functionality on certain aspects. For example, we attempted to develop a wearable oral sensory system that recognizes human oral activities related to health\cite{Li2013teeth}. For examining its feasibility, it requires building a wearable device integrated with the sensor. Therefore, people always demand a useful tool that contains electronic and/or mechanical components in the design process. In the subsequent subsections, we describe the related works of rapid prototyping for wearable applications.
+
+
+\subsection{Integrated Design Devices}
+Developers, designer and researchers would like to develop a wearable application with uncomplicated process and without significant engineering skill to work with it, such as wiring, soldering, coding and so on. For non-engineering background users, an off-the-shelf device would be a better choice. For examples, activPAL\footnote{activPAL
+\hspace{1cm} http://www.paltechnologies.com/} equips motion sensor and storage for collecting human's physical activity. Shimmer\footnote{Shimmer
+\hspace{1cm} http://www.shimmersensing.com/} is a device that integrates various types of sensors, storage, wireless connectivity and software for accessing the device. The Mercury \cite{Lorincz:2009:MWS:1644038.1644057} is an example that uses Shimmer in their study for high-fidelity motion analysis of patients being treated for neuromotor disorders. The HealthPatch\footnote{vitalconnect
+\hspace{1cm} http://www.vitalconnect.com/} is a bandage-like wearable device that embedded ECG sensor, accelerometer and temperature sensor to track human's health.
+Smart phone is also a versatile device that integrated many sensors. 
+Eric C. Larson et.al.\cite{Larson:2011:APP:2030112.2030163} leverage the microphone on the smart phone carried in shirt pocket or using a neck strap for preserving the cough activity.
+But a fixed design can only offer limited functionalities and meet the needs of limited applications. Once the user need an extra function or different form factor, it can not satisfy the need of developing new application and service. Thus, the people may be willing to pay more cost and effort for better prototyping their design.
+
+
+\subsection{Prototyping platforms}
+Several tools can help people to easily prototype a device for developing and testing a design. For example, the Arduino\footnote{Arduino
+\hspace{1cm} http://www.arduino.cc/} is an open-source platform that provides easy-to-use hardware and software for making electronic device. It also has the version, e.g.: Arduino Gemma, that targets the user for developing wearable application. Arduino is a successful platform that you can easily get many resources to prototype your idea including plenty of compatible sensors, actuators, feedback components and software libraries.
+After the device is constructed by the Arduino, it is not that robust in use due to its wiring mechanism for connecting components.
+The Intel Edison\footnote{Intel Edison
+\hspace{1cm} http://www.intel.com/content/www/us/en/do-it-yourself/edison.html} presents a development kit that offers high computational performance and wireless connectivities including Wi-Fi and Bluetooth. Through a breakout board, it can connect other components as well as the Arduino.
+The Xadow\footnote{Seeed studio
+\hspace{1cm} http://www.seeedstudio.com/} is another platform which is similar to Arduino. It adopts a well-defined connector and cable to simplify the process of connecting the components. Thus, the user is not necessary to worry about the wiring for connecting components in pin-to-pin fashion and the robustness of those wires.
+
+
+\section{Customization in HCI}
+After several iterations of prototyping a system of the wearable application in low-fidelity and medium-fidelity prototypes, the next step is to build a high-fidelity prototype for conducting a field trial and further refine the design.
+In product development, the implementation of the wearable system will involve with a great cost and effort in customization before launching the application and service to the market.
+
+Many HCI studies also customize their wearable system in order to have a workable and robust device used in field trial or to better demonstrate their design and concept.
+In our study, we implement a sensor-embedded teeth\cite{Li2013teeth} to demonstrate the feasibility of sensing humans's oral activities with in-mouth sensor. As a proof-of-concept system, the effort of customization is relatively low. In this study, we have yet to place a Bluetooth radio on this oral sensory unit; therefore, thin wires are used to connect the sensor board to an external data-logging device for data retrieval and power. 
+In our other study, the KetDiary\cite{You2016Ket} is a phone-based support system to enable the self-monitoring of ketamine use by recovering patients after returning to everyday life. 
+We build a saliva-screening device to determine patient's ketamine use.
+The microcontroller triggers the camera module to capture images of the reaction zone of the test strip. When the microcontroller receives an image from the camera, a Bluetooth Low Energy (BLE) radio is used to transmit images to the patient’s smartphone. 
+A phone app is built on Android platform to enable the self-monitoring and progress visualization. 
+Although, the implementation in the KetDiary is a mobile device rather than a wearable device, but this project shows that it required a lot of effort and significant engineering skill to build the system in order to use the device for a three-week study involving three ketamine-dependent patients.
+The mPuff\cite{mPuff:2012:MAD:2185677.2185741} introduces a chest-worn device for detecting smoking behavior using motion, heart rate, respiration and galvanic skin response sensors.
+The MARS\cite{Mokaya:2013:MMA:2461381.2461406} customizes wearable devices with inertial sensors to recognize whole body movement.
+However, a number of studies for wearable application\cite{mPuff:2012:MAD:2185677.2185741, Lane:2015:ZCD:2742647.2742672, Mokaya:2013:MMA:2461381.2461406, Thompson:2015:DHA:2750858.2807536, Mokaya:2015:MVB:2750858.2804258, Lorincz:2009:MWS:1644038.1644057, Yatani:2012:BWA:2370216.2370269} use common components in their devices. A good wearable platform may be able to facilitate the process of rapid prototyping in such research projects.
+
+\section{Modular Design: Flexible and Extensible}
+Modular design is a design concept that separates each functional partition of the system as a module and standardizes the communication interface between modules to enable flexibility and extensibility.
+Each modules can be reuse to reduce the cost in customization. A modularized system can easily add new functionality without re-design entire system to shorten developing process.
+
+Google Ara\footnote{Google Ara
+\hspace{1cm} http://www.projectara.com/} and LG G5\footnote{LG G5
+\hspace{1cm} http://www.lg.com/us/mobile-phones/g5} are the flexible and extensible smart phones that allows users to make the choice of modules for build a smart phone as their need.
+The Nascent\footnote{Nascent
+\hspace{1cm} http://www.nascentobjects.com/} allows users to build an electronic device using modular components such as speaker, inertial sensor and microphone, which has a similar quality to a commercial product.
+Recently, modular design also emerged in wearable area.
+The Vigekwear\footnote{Vigekwear
+\hspace{1cm} http://www.giayee.com/bluetooth-bracelet/} is a developing kit that offers micro and modularized components including BLE microcontroler, inertial sensors, temperature sensor, barometer, heart rate sensor and OLED display.
+This developing kit aims for allowing users to develop a application on the wrist.
+The BLOCKS\footnote{BLOCKS
+\hspace{1cm} http://www.chooseblocks.com/} is a modular smartwatch that lets users to tailor the features as they needed. It contains several modules that can function on the wrist, such as temperature sensor, ECG, GPS, camera, NFC, gesture control an so on.
+
+The concept has been widely explored in product manufacturing to discuss the tradeoff between modular design integrated design\cite{schilling2000toward, ulrich1995role}. 
+In addition to making a modular design in manufacturing phase, i.e., each component is modularized physically, modularization also can be done in design phase. For example, the Altium Designer\footnote{Altium Designer
+\hspace{1cm} http://www.altium.com/altium-designer/} is a PCB design software that can encapsulate a part of circuit as a module. Thus, the designer can rearrange the module to create different configurations and variants.
+Those examples shows that the modular design can be a useful concept to benefit rapid prototyping for developing wearable applications.
+
+
