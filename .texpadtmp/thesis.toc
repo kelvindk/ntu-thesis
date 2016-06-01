@@ -1,0 +1,36 @@
+\contentsline {chapter}{Abstract}{iii}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}
+\contentsline {section}{\numberline {1.2}Contribution}{1}
+\contentsline {section}{\numberline {1.3}Organization}{1}
+\contentsline {chapter}{\numberline {2}Background and Related Work}{3}
+\contentsline {section}{\numberline {2.1}Wearable Devices with Healthcare Applications}{3}
+\contentsline {section}{\numberline {2.2}Case Study of Developing a Wearable Device: Sensor-Embedded Teeth for Oral Activity Recognition}{4}
+\contentsline {subsection}{\numberline {2.2.1}Motivation}{5}
+\contentsline {subsection}{\numberline {2.2.2}Oral Sensory Unit}{5}
+\contentsline {subsubsection}{Oral Activity Analysis}{6}
+\contentsline {subsubsection}{Summary}{8}
+\contentsline {section}{\numberline {2.3}Rapid Prototyping for Wearable Applications}{10}
+\contentsline {subsection}{\numberline {2.3.1}Integrated Design Devices}{10}
+\contentsline {subsection}{\numberline {2.3.2}Prototyping platforms}{11}
+\contentsline {subsection}{\numberline {2.3.3}Customization in HCI}{12}
+\contentsline {subsection}{\numberline {2.3.4}Modular Design: Flexible and Extensible}{12}
+\contentsline {chapter}{\numberline {3}Design Exploration}{15}
+\contentsline {section}{\numberline {3.1}Focus Groups}{15}
+\contentsline {subsection}{\numberline {3.1.1}Participants}{15}
+\contentsline {subsection}{\numberline {3.1.2}Procedures}{16}
+\contentsline {section}{\numberline {3.2}Participatory Design Workshops}{16}
+\contentsline {subsection}{\numberline {3.2.1}Participants}{16}
+\contentsline {subsection}{\numberline {3.2.2}Prior to a Workshop}{17}
+\contentsline {subsection}{\numberline {3.2.3}Procedures}{17}
+\contentsline {section}{\numberline {3.3}Findings form Explorative Studies}{19}
+\contentsline {chapter}{\numberline {4}BioScope: a Flexible and Extensible Wearable Platform}{21}
+\contentsline {section}{\numberline {4.1}BioScope System Design and Implementation}{21}
+\contentsline {subsection}{\numberline {4.1.1}Flexible and Extensible Sensing Bandage}{22}
+\contentsline {subsection}{\numberline {4.1.2}Stacking Mechanism}{23}
+\contentsline {subsection}{\numberline {4.1.3}Sensor Patches}{25}
+\contentsline {subsection}{\numberline {4.1.4}Explorative Experiment}{28}
+\contentsline {section}{\numberline {4.2}...}{30}
+\contentsline {section}{\numberline {4.3}...}{30}
+\contentsline {chapter}{\numberline {5}Conclusion}{31}
+\contentsline {chapter}{Bibliography}{33}
