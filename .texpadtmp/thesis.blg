@@ -3,287 +3,287 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.aux
 The style file: abbrv.bst
 Database file #1: ../thesis.bib
-I was expecting an "="---line 111 of file ../thesis.bib
+I was expecting an "="---line 208 of file ../thesis.bib
  :  
  :  numpages = {7},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 457 of file ../thesis.bib
+You're missing a field name---line 554 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1136-6},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 491 of file ../thesis.bib
+You're missing a field name---line 588 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1935701.1935703},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 508 of file ../thesis.bib
+You're missing a field name---line 605 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1291233.1291357},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 525 of file ../thesis.bib
+You're missing a field name---line 622 of file ../thesis.bib
  :   
  :   %isbn = {978-1-60558-431-7},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 540 of file ../thesis.bib
+You're missing a field name---line 637 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2071423.2071449},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 557 of file ../thesis.bib
+You're missing a field name---line 654 of file ../thesis.bib
  : 
  : %URL="http://ci.nii.ac.jp/naid/110006223862/en/",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 571 of file ../thesis.bib
+You're missing a field name---line 668 of file ../thesis.bib
  : 
  : %URL="http://ci.nii.ac.jp/naid/110008507992/en/",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 586 of file ../thesis.bib
+You're missing a field name---line 683 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/634067.634180},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 604 of file ../thesis.bib
+You're missing a field name---line 701 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2207676.2207747},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 618 of file ../thesis.bib
+You're missing a field name---line 715 of file ../thesis.bib
  : 
  : % isbn = {978-1-4503-0426-9},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 639 of file ../thesis.bib
+You're missing a field name---line 736 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1016-1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 659 of file ../thesis.bib
+You're missing a field name---line 756 of file ../thesis.bib
  : 
  : % url = {http://dx.doi.org/10.1007/11748625_23},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 677 of file ../thesis.bib
+You're missing a field name---line 774 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1579114.1579161},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 693 of file ../thesis.bib
+You're missing a field name---line 790 of file ../thesis.bib
  :  
  :  %isbn = {978-3-540-74852-6},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 712 of file ../thesis.bib
+You're missing a field name---line 809 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1836821.1836839},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 729 of file ../thesis.bib
+You're missing a field name---line 826 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1864349.1864373},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 745 of file ../thesis.bib
+You're missing a field name---line 842 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-011-1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 821 of file ../thesis.bib
+You're missing a field name---line 918 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2208516.2208603},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 839 of file ../thesis.bib
+You're missing a field name---line 936 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2208276.2208299},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 857 of file ../thesis.bib
+You're missing a field name---line 954 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1640233.1640367},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 874 of file ../thesis.bib
+You're missing a field name---line 971 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1979482.1979575},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 892 of file ../thesis.bib
+You're missing a field name---line 989 of file ../thesis.bib
  : 
  : % url = {http://dl.acm.org/citation.cfm?id=2021975.2021993},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 909 of file ../thesis.bib
+You're missing a field name---line 1006 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1394445.1394452},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 927 of file ../thesis.bib
+You're missing a field name---line 1024 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2370216.2370246},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 945 of file ../thesis.bib
+You're missing a field name---line 1042 of file ../thesis.bib
  : 
  : % url = {http://dl.acm.org/citation.cfm?id=647985.743864},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 961 of file ../thesis.bib
+You're missing a field name---line 1058 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1640233.1640367},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 979 of file ../thesis.bib
+You're missing a field name---line 1076 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1978942.1978957},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 997 of file ../thesis.bib
+You're missing a field name---line 1094 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1842993.1843016},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1034 of file ../thesis.bib
+You're missing a field name---line 1131 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1952-2},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1074 of file ../thesis.bib
+You're missing a field name---line 1171 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1899-0},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1092 of file ../thesis.bib
+You're missing a field name---line 1189 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-011-1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1111 of file ../thesis.bib
+You're missing a field name---line 1208 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-395-2},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1130 of file ../thesis.bib
+You're missing a field name---line 1227 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-2215-7},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1148 of file ../thesis.bib
+You're missing a field name---line 1245 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1952-2},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1169 of file ../thesis.bib
+You're missing a field name---line 1266 of file ../thesis.bib
  : 
  : %doi={10.1109/MPRV.2012.40},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1183 of file ../thesis.bib
+You're missing a field name---line 1280 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2317956.2317964},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1201 of file ../thesis.bib
+You're missing a field name---line 1298 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2207676.2207693},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1217 of file ../thesis.bib
+You're missing a field name---line 1314 of file ../thesis.bib
  :  
  :  %issue_date = {December 1 - December 31, 2002},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1230 of file ../thesis.bib
+You're missing a field name---line 1327 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 11th International Conference on Human-Computer Interaction with Mobile Devices and Services},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1250 of file ../thesis.bib
+You're missing a field name---line 1347 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 22nd Annual ACM Symposium on User Interface Software and Technology},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1269 of file ../thesis.bib
+You're missing a field name---line 1366 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 15th International Conference on Intelligent User Interfaces},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1288 of file ../thesis.bib
+You're missing a field name---line 1385 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1307 of file ../thesis.bib
+You're missing a field name---line 1404 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 26th Annual ACM Symposium on User Interface Software and Technology},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1326 of file ../thesis.bib
+You're missing a field name---line 1423 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the Adjunct Publication of the 26th Annual ACM Symposium on User Interface Software and Technology},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1345 of file ../thesis.bib
+You're missing a field name---line 1442 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 2013 ACM International Conference on Interactive Tabletops and Surfaces},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1366 of file ../thesis.bib
+You're missing a field name---line 1463 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1682-8},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1386 of file ../thesis.bib
+You're missing a field name---line 1483 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-2268-3},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1404 of file ../thesis.bib
+You're missing a field name---line 1501 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-2268-3},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1422 of file ../thesis.bib
+You're missing a field name---line 1519 of file ../thesis.bib
  :  
  :  %isbn = {3-540-39634-9, 978-3-540-39634-5},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1439 of file ../thesis.bib
+You're missing a field name---line 1536 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-843-8},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1455 of file ../thesis.bib
+I was expecting a `,' or a `}'---line 1552 of file ../thesis.bib
  : 
  : year = {2004},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1479 of file ../thesis.bib
+You're missing a field name---line 1576 of file ../thesis.bib
  : 
  : %author = {恵子, 杉本},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1493 of file ../thesis.bib
+You're missing a field name---line 1590 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1580-7},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1511 of file ../thesis.bib
+You're missing a field name---line 1608 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-011-1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1792 of file ../thesis.bib
+I was expecting a `,' or a `}'---line 1889 of file ../thesis.bib
  :  
  :  primaryClass = "physics.med-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1800 of file ../thesis.bib
+I was expecting a `,' or a `}'---line 1897 of file ../thesis.bib
  : 
  : TITLE = {Nutrition research: an investment in the nation&#039;s health.},
 (Error may have been on previous line)
@@ -302,54 +302,57 @@ Warning--to sort, need author or key in vitalconnect
 Warning--to sort, need author or key in Arduino
 Warning--to sort, need author or key in IntelEdison
 Warning--to sort, need author or key in xadow
+Warning--to sort, need author or key in Processing
+Warning--to sort, need author or key in mbed
+Warning--to sort, need author or key in Weka
 Warning--to sort, need author or key in GoogleAra
 Warning--to sort, need author or key in LGG5
 Warning--to sort, need author or key in Nascent
-Warning--to sort, need author or key in Vigekwear
 Warning--to sort, need author or key in BLOCKS
+Warning--to sort, need author or key in Vigekwear
 Warning--to sort, need author or key in AltiumDesigner
 Warning--empty journal in gartner2016wearable
 Warning--empty booktitle in Muller:2002:PDT:772072.772138
 Warning--can't use both volume and number fields in walker2002high
-You've used 45 entries,
+You've used 52 entries,
             2118 wiz_defined-function locations,
-            752 strings with 10881 characters,
-and the built_in function-call counts, 13915 in all, are:
-= -- 1405
-> -- 509
-< -- 16
-+ -- 216
-- -- 168
-* -- 833
-:= -- 2005
-add.period$ -- 127
-call.type$ -- 45
-change.case$ -- 214
+            794 strings with 12252 characters,
+and the built_in function-call counts, 16820 in all, are:
+= -- 1688
+> -- 679
+< -- 19
++ -- 287
+- -- 230
+* -- 1049
+:= -- 2444
+add.period$ -- 148
+call.type$ -- 52
+change.case$ -- 266
 chr.to.int$ -- 0
-cite$ -- 68
-duplicate$ -- 591
-empty$ -- 1275
-format.name$ -- 168
-if$ -- 3157
+cite$ -- 78
+duplicate$ -- 692
+empty$ -- 1486
+format.name$ -- 230
+if$ -- 3789
 int.to.chr$ -- 0
-int.to.str$ -- 45
-missing$ -- 29
-newline$ -- 208
-num.names$ -- 51
-pop$ -- 337
+int.to.str$ -- 52
+missing$ -- 33
+newline$ -- 240
+num.names$ -- 59
+pop$ -- 402
 preamble$ -- 1
-purify$ -- 174
+purify$ -- 219
 quote$ -- 0
-skip$ -- 507
+skip$ -- 596
 stack$ -- 0
-substring$ -- 787
-swap$ -- 177
-text.length$ -- 16
+substring$ -- 935
+swap$ -- 211
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 170
-warning$ -- 23
-while$ -- 101
-width$ -- 47
-write$ -- 445
+type$ -- 198
+warning$ -- 26
+while$ -- 119
+width$ -- 54
+write$ -- 519
 (There were 57 error messages)

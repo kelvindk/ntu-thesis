@@ -13,8 +13,8 @@
 \contentsline {section}{\numberline {2.3}Rapid Prototyping for Wearable Applications}{10}
 \contentsline {subsection}{\numberline {2.3.1}Integrated Design Devices}{10}
 \contentsline {subsection}{\numberline {2.3.2}Prototyping platforms}{11}
-\contentsline {subsection}{\numberline {2.3.3}Customization in HCI}{12}
-\contentsline {subsection}{\numberline {2.3.4}Modular Design: Flexible and Extensible}{12}
+\contentsline {subsection}{\numberline {2.3.3}Customization in HCI}{13}
+\contentsline {subsection}{\numberline {2.3.4}Modular Design: Flexible and Extensible}{13}
 \contentsline {chapter}{\numberline {3}Design Exploration}{15}
 \contentsline {section}{\numberline {3.1}Focus Groups}{15}
 \contentsline {subsection}{\numberline {3.1.1}Participants}{15}

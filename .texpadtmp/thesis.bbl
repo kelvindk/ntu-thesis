@@ -20,6 +20,10 @@
 {Arduino}.
 \newblock \url{http://www.arduino.cc/}.
 
+\bibitem{mbed}
+{Arm mbed}.
+\newblock \url{http://www.mbed.com/}.
+
 \bibitem{Athos}
 {Athos}.
 \newblock \url{http://www.liveathos.com/}.
@@ -53,6 +57,10 @@
 {Nascent}.
 \newblock \url{http://www.nascentobjects.com/}.
 
+\bibitem{Processing}
+{Processing}.
+\newblock \url{http://processing.org/}.
+
 \bibitem{xadow}
 {Seeed studio}.
 \newblock \url{http://www.seeedstudio.com/}.
@@ -76,6 +84,10 @@
 \bibitem{vitalconnect}
 {vitalconnect}.
 \newblock \url{http://www.vitalconnect.com/}.
+
+\bibitem{Weka}
+{Weka}.
+\newblock \url{http://www.cs.waikato.ac.nz/ml/weka/}.
 
 \bibitem{X2_xGuard}
 {X2 xGuard}.
@@ -107,6 +119,20 @@ A.~Chan, N.~Ferdosi, and R.~Narasimhan.
   Accelerometer}.
 \newblock In {\em Proc. IEEE EMBS 2013}, pages 4058--4061, July 2013.
 
+\bibitem{Weave2015}
+P.-Y.~P. Chi and Y.~Li.
+\newblock Weave: Scripting cross-device wearable interaction.
+\newblock In {\em Proceedings of the 33rd Annual ACM Conference on Human
+  Factors in Computing Systems}, CHI '15, pages 3923--3932, New York, NY, USA,
+  2015. ACM.
+
+\bibitem{Mobile_Sensing_Platform}
+T.~Choudhury, G.~Borriello, S.~Consolvo, D.~Haehnel, B.~Harrison, B.~Hemingway,
+  J.~Hightower, P.~. Klasnja, K.~Koscher, A.~LaMarca, J.~A. Landay, L.~LeGrand,
+  J.~Lester, A.~Rahimi, A.~Rea, and D.~Wyatt.
+\newblock The mobile sensing platform: An embedded activity recognition system.
+\newblock {\em IEEE Pervasive Computing}, 7(2):32--41, April 2008.
+
 \bibitem{Dacre2002}
 J.~Dacre and P.~Kopelman.
 \newblock {\em {A Handbook of Clinical Skills}}.
@@ -126,6 +152,15 @@ Gartner.
 J.~Greenbaum and M.~Kyng, editors.
 \newblock {\em Design at Work: Cooperative Design of Computer Systems}.
 \newblock L. Erlbaum Associates Inc., Hillsdale, NJ, USA, 1992.
+
+\bibitem{dtool}
+B.~Hartmann, S.~R. Klemmer, M.~Bernstein, L.~Abdulla, B.~Burr,
+  A.~Robinson-Mosher, and J.~Gee.
+\newblock Reflective physical prototyping through integrated design, test, and
+  analysis.
+\newblock In {\em Proceedings of the 19th Annual ACM Symposium on User
+  Interface Software and Technology}, UIST '06, pages 299--308, New York, NY,
+  USA, 2006. ACM.
 
 \bibitem{Lane:2015:ZCD:2742647.2742672}
 N.~D. Lane, P.~Georgiev, C.~Mascolo, and Y.~Gao.
@@ -156,6 +191,12 @@ K.~Lorincz, B.-r. Chen, G.~W. Challen, A.~R. Chowdhury, S.~Patel, P.~Bonato,
   analysis.
 \newblock In {\em Proceedings of the 7th ACM Conference on Embedded Networked
   Sensor Systems}, SenSys '09, pages 183--196, New York, NY, USA, 2009. ACM.
+
+\bibitem{Jigsaw2010}
+H.~Lu, J.~Yang, Z.~Liu, N.~D. Lane, T.~Choudhury, and A.~T. Campbell.
+\newblock The jigsaw continuous sensing engine for mobile phone applications.
+\newblock In {\em Proceedings of the 8th ACM Conference on Embedded Networked
+  Sensor Systems}, SenSys '10, pages 71--84, New York, NY, USA, 2010. ACM.
 
 \bibitem{Mokaya:2015:MVB:2750858.2804258}
 F.~Mokaya, R.~Lucas, H.~Y. Noh, and P.~Zhang.
