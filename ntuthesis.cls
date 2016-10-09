@@ -16,7 +16,7 @@
 \DeclareRobustCommand{\@classen}{Thesis}
 \DeclareRobustCommand{\@classzh}{論文}
 \DeclareOption{phd}{\gdef\@typeen{Doctoral}\gdef\@typezh{博士}\gdef\@classen{Dissertation}}
-\DeclareOption{proposal}{\gdef\@typeen{Proposal for Doctoral}\gdef\@typezh{博士論文計畫提案書}\gdef\@classen{Dissertation}\gdef\@classzh{}}
+\DeclareOption{proposal}{\gdef\@typeen{Proposal for Doctoral}\gdef\@typezh{博士論文}\gdef\@classen{Dissertation}\gdef\@classzh{}}
 \DeclareRobustCommand{\@setspacing}{\doublespacing}
 \DeclareOption{singlespacing}{\gdef\@setspacing{\singlespacing}}
 \DeclareOption{onehalfspacing}{\gdef\@setspacing{\onehalfspacing}}
