@@ -33,29 +33,36 @@ In the guiding session (which lasted for half of an hour), a moderator, who was 
 In the final developing session (which lasted two and a half hours), four participants were separated into two pairs in which each participant could share design opinions. To stir cross-disciplinary thinking within each pair, one researcher with an engineering background helped participants to identify alternative sensing technologies for use in their design work, and another researcher with a background in industrial and commercial design expressed their design scenarios using concrete storyboards. Consistent with the work-oriented participatory design process, the goal of each design was set, which was to help healthcare workers care for patients in hospitals. To assist participants in performing the design task effectively, an A3 sheet of paper with the following fields was provided; name of their solution, target user, needs of the target user, targeted sensing events and required feedback, form factor of the designed device. The first stage of the development session involved the participants discussing the name and the target user of the designed solution using categories that were obtained from the pre-workshop homework. Following the identification of the target users, the second stage involved determining the potential needs of the target user that are associated with the solution. In the third stage, the engineering researcher discussed with participants the selection of sensors and actuators for detecting targeted events or generating the required feedback in each application scenario. When the group completed its final design, the designer cooperated with the participants to finalize the form factor of the designed device by sketching an appropriate storyboard. In the final stage, each group presented their final design, about which all participants discussed and commented.
 
 \section{Findings form Explorative Studies}
-[Support your findings from data in the focus groups and PD workshops.]For data analysis, the audio recordings of focus groups and the video recordings of the participatory design workshops were transcribed and coded. We summarize the findings of design exploration for developing a wearable sensing platform are summarized as follows.
-\vspace{15pt}
-\newline
-\textbf{Form factor:}\newline
+In addition to medical-background users, a team to develop an application may involve cross-disciplinary members.
+The users with different background knowledge and skill levels have various requirements for prototyping. 
+To better understand the needs of engineering-background users, we further conduct semi-structure interviews on 6 participants, who have experience on HCI projects (4 male and 2 female age from 22 to 33 with computer science or electrical engineering background).
+The design goal of BioScope towards a flexible and extensible platform that can fit in with different types of users. We describe the design considerations for both non-engineering background and engineering background users.
+
+For data analysis, the audio recordings of focus groups and interviews, and the video recordings of the participatory design workshops were transcribed and coded.
+With lessons learned from our study and observations, we summarize the findings of design exploration for developing a wearable sensing platform as follows.
+
+\subsection{Findings}
+\subsubsection{Form factor}
 Several wearable form factors are discussed to identify what are the nice characteristics as a wearable device, including wristband, neckband, sticker, bandage, badge, garment, flip flop, strap and so on. The explored characteristics include easy wearing, taking off, compact and comfortable. The device should be comfort to wear and quick to deploy. The device also can be placed on proper body location to sense physiological data.
+
 \vspace{10pt}
-\newline
-\textbf{Flexibility:}\newline
+\subsubsection{Flexibility}
 Because there are various types of physiological sensors that can be used to develop different healthcare applications, a fixed design can only to offer limited functions on a device. It is difficult to have one single design that can fit all requirements to develop healthcare application. Therefore, if a wearable sensing platform has flexibility that developers can build a wearable device with required sensing abilities. Then, developers can use this device as a prototype to test their tailored healthcare application. In different iterations of design process, a platform with flexibility can easily deal with the situation that developers may need to add or remove functions on the wearable device.
+
 \vspace{10pt}
-\newline
-\textbf{Extensibility:}\newline
+\subsubsection{Extensibility}
 A wearable sensing platform must be easily extend and upgrade its abilities. In terms of the hardware part, the platform must be able extend new component without re-design entire system. In terms of the software part, the platform must provide comprehensive APIs to allow users to construct new method, function and algorithm on top of existing components.
+
 \vspace{10pt}
-\newline
-\textbf{Sensing and data:}\newline
+\subsubsection{Sensing and data}
 To develop a healthcare application, several types of common information are collected using wearable device, such as vital sign, physical activity and so on. Since a wearable device collects sensory data, the next step is to process the data. Then, the system can feedback the processed data to corresponding users depending on their requirement. The platform should provide a meaningful representation of data that can be understood by the user, e.g.: a pedometer shows step count rather than raw data of motion sensor.
+
 \vspace{10pt}
-\newline
-\textbf{Configuration:}\newline
-The complexity of configuration is a key whether a user will adopt a platform for development or not. In terms of non-engineering background users, they desire there is no complex steps to configure the device and the components are plug and play.
+\subsubsection{Configuration}
+The complexity of configuration is a key whether users will adopt a platform for developing their application or not. For non-engineering background users, they desire there is no complex steps to configure the device and the components are plug and play. For advanced developers, they would desire further customization on top of the platform to realize some specific functions and applications. 
+
 \vspace{10pt}
-\newline
-\textbf{Battery life:}\newline
-The work period of the wearable device is a critical concern for a healthcare application. The device must be able to survive until its mission is complete. A proper power saving mechanism can prolong the work period of the wearable device as long as possible and can work transparently to the user without complex configuration.
+\subsubsection{Battery life}
+The work period of the wearable device is a critical concern for a healthcare application. The device must be able to survive until its mission is complete. However, enabling power saving relies on correct configuration on both hardware and firmware. A proper power saving mechanism can prolong the work period of the wearable device as long as possible and can work transparently to the user without complex configuration.
+
 

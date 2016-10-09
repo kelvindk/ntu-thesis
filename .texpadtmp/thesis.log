@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.3.8)  5 JUN 2016 17:15
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.3.8)  9 OCT 2016 17:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1068,37 +1068,46 @@ Overfull \hbox (5.72015pt too wide) in paragraph at lines 26--29
  []
 
 [17]
+Overfull \hbox (10.89485pt too wide) in paragraph at lines 39--43
+\EU1/TimesNewRoman(0)/m/n/12 els have various requirements for prototyping. To better understand the needs of engineering-
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (0.60362pt too wide) in paragraph at lines 44--46
+\EU1/TimesNewRoman(0)/m/n/12 recordings of the participatory design workshops were transcribed and coded. With lessons
+ []
 
- [19]) (./chapters/bioscope.tex [20]
-Chapter 4.
-File: image/bio_fig1.png Graphic file (type QTm)
-<use  "image/bio_fig1.png" > [21
+[19] [20]) (./chapters/bioscope.tex [21] [22
 
 ]
-Underfull \vbox (badness 3612) has occurred while \output is active []
-
- [22]
+Chapter 4.
+File: image/bio_fig0.png Graphic file (type QTm)
+<use  "image/bio_fig0.png" >
+File: image/bio_fig1.png Graphic file (type QTm)
+ <use  "image/bio_fig1.png" > [23]
 File: image/bio_fig2.pdf Graphic file (type QTm)
- <use  "image/bio_fig2.pdf" >
+ <use  "image/bio_fig2.pdf" > [24] [25]
 File: image/bio_dc_adc.png Graphic file (type QTm)
- <use  "image/bio_dc_adc.png" > [23] [24] [25] [26]
+ <use  "image/bio_dc_adc.png" > [26] [27]
 File: image/bio_fig1_5.png Graphic file (type QTm)
  <use  "image/bio_fig1_5.png" >
 File: image/bio_recharge.png Graphic file (type QTm)
- <use  "image/bio_recharge.png" > [27] [28]
-File: image/bio_fig4.png Graphic file (type QTm)
- <use  "image/bio_fig4.png" >) (./chapters/conclusion.tex
+ <use  "image/bio_recharge.png" > [28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29] [30]
-Chapter 5.
-) [31
+File: image/bio_fig4.png Graphic file (type QTm)
+ <use  "image/bio_fig4.png" > [31] [32]) (./chapters/conclusion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [32
+ [33] [34]
+Chapter 5.
+) [35
+
+] [36
 
 ] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.bbl
 *************************************************
@@ -1119,20 +1128,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--51
 []\EU1/TimesNewRoman(0)/m/n/12 Intel Edison.  $[][][][] [] [] [] [][][] [] [][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][] [] [][] [] [][][][][][][][][][][][][][][][] []
  []
 
-[33
+[37
 
-] [34] [35] [36]) [37] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.aux)
+] [38] [39] [40]) [41] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 18313 strings out of 493638
- 365346 string characters out of 6144793
- 375224 words of memory out of 5000000
- 21550 multiletter control sequences out of 15000+600000
+ 18316 strings out of 493638
+ 365386 string characters out of 6144793
+ 379224 words of memory out of 5000000
+ 21552 multiletter control sequences out of 15000+600000
  6608 words of font info for 52 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  61i,7n,72p,10439b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.pdf (47 pages).
+Output written on /Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.pdf (51 pages).
