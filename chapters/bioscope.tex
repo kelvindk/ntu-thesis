@@ -20,37 +20,50 @@ Based on the design considerations, we designed and implemented the BioScope sys
 
 
 \subsection{Flexible and Extensible Sensing Bandage}
-To create an extensible system, we designed a device with two distinct modules (Figure \ref{bandage_stacking}): (1) the basic bandage platform and (2) sensor patches. The bandage-like platform resembles an adhesive bandage. We drew a 3D model of the platform and then printed it using a 3D printer and elastic filaments. Figure \ref{bandage_stacking}(a) depicts the platform, in which a hollow space is reserved to encase the customized sensing patches. To provide processing and communication capabilities, we designed a customized circuit board, called the main board, that could be mounted in the hollow space. The main board and the stacked sensor patches are powered by a 130-mAh Li-ion battery situated in the upper layer of the platform. On the main board, a Microchip PIC32MX150 microcontroller receives data from the sensor patches through board-to-board connectors, and then relays the processed data to the monitoring screen through a Texas Instruments CC2451 Bluetooth module. 
+Based on the design considerations from our explorative studies for designing a flexible and extensible platform that can facilitate data collection, we collaborated with an expert from the Department of Nursing at National Taiwan University, Taipei, Taiwan. Through biweekly meetings with the expert, we first identified the necessity for an extensible sensing device that can assist healthcare workers in efficiently collecting commonly monitored data used in nursing assessments (e.g., monitoring the functional recovery of postoperational patients). Based on input and feedback provided by the expert and two experienced healthcare workers (three women, aged 30$\sim$42 years), we explored alternative designs for the flexible and extensible sensing device. During these brainstorming sessions, we recorded the ideas of all participants and then organized these ideas by using affinity diagrams to gain a deeper understanding of the primary design considerations.
 
-\begin{figure}[!ht]
+The system should enable healthcare workers to tailor the sensors to specific assessments. Depending on the diagnostic results, healthcare workers may wish to reassess the patient by collecting additional data. The system should therefore enable preliminary screenings in which the healthcare workers can add or remove sensors to the device. For developer, the system should be able to extend new component without re-design entire system.
+
+The system should be efficient and simple to use, even for healthcare workers with no technical background. After determining the types of data required for patient assessment, healthcare workers should be able to easily identify which sensors to add to the device. To enable healthcare workers to attach the required sensors to appropriate locations on the patient, the device should have a compact adhesive design, enabling it to be easily affixed to the skin without undue inconvenience or skin irritation \cite{Barrett2014}. 
+
+The system should be able to analyze trends in data that are collected continually over durations ranging from several hours to several days. Healthcare workers can use this long-term data to review and reassess the physical state of patients and identify potential health complications. To continually collect data within a given period, (e.g., half of a day), a fully charged battery should contain sufficient energy to power the sensing device and the system should be able to enable power saving mechanism to prolong the battery life.
+
+To create a flexible and extensible system, we designed a device with two distinct types of module (Figure \ref{bandage_stacking}): (1) the basic bandage platform and (2) sensor patches. The bandage-like platform resembles an adhesive bandage. We drew a 3D model of the platform and then printed it using a 3D printer and elastic filaments. Figure \ref{bandage_stacking}(a) depicts the platform, in which a hollow space is reserved to encase the customized sensing patches. To provide processing and communication capabilities, we designed a customized circuit board, called the main board, that could be mounted in the hollow space. The main board and the stacked sensor patches are powered by a 130-mAh Li-ion battery situated in the upper layer of the platform. On the main board, a Microchip PIC32MX150 microcontroller receives data from the sensor patches through board-to-board connectors, and then relays the processed data to the monitoring screen through a Texas Instruments CC2451 Bluetooth module. 
+
+\begin{figure}
+\centering
+\includegraphics[width=15cm]{image/bio_stack}
+\caption{Stacking mechanism to connect sensor patches and mainboard.}
+\label{bio_stack}
+\end{figure}
+
+\subsection{Stacking Mechanism}
+Users can choose different combinations of LEGO-like sensing and interaction blocks and assemble them inside a bandage form factor. The key mechanism that enables BioScope to be flexible and extensible is stacking (Figure \ref{bio_stack}). In this subsection we We define a connecting protocol to unify the power supply and data communication between the patches and the mainboard. 
+
+\vspace{15pt}
+\subsubsection{Assembling}
+Figure \ref{bio_steps}(a) illustrates these patches stacked in two layers in the hollow space of the platform; temperature and microphone sensors directly contact the skin to collect high-quality signals. 
+To create accessible patches for the users, each patch was punched with a representative icon on both sides of the covering material. Figure \ref{bio_steps} illustrates the BioScope application process: (1) A healthcare worker selects the appropriate patches (or dummy patches) by using the embossed icon as a reference, stacks the patches on (or filling in empty spaces that are originally occupied by unused patches on) the platform, (2) inserts a battery and closes the protection cap, (3) affixes the bandage to chest, and (4) covers the entire bandage with transparent film dressings if water-proof is needed.
+
+\begin{figure}
 \centering
 \includegraphics[width=15cm]{image/bio_fig2}
 \caption{Four steps for applying bandages.}
 \label{bio_steps}
 \end{figure}
 
-\subsection{Stacking Mechanism}
-Users can choose different combinations of LEGO-like sensing and interaction blocks and assemble them inside a bandage form factor. This subsection describes the three main parts in stacking mechanism to make this system flexible and extensible.
 
-\vspace{15pt}
-\subsubsection{Assembling}
-Figure \ref{bandage_stacking}(a) illustrates these patches stacked in two layers in the hollow space of the platform; temperature and microphone sensors directly contact the skin to collect high-quality signals. 
-To create accessible patches for the users, each patch was punched with a representative icon on both sides of the covering material. Figure \ref{bio_steps} illustrates the BioScope application process: (1) A healthcare worker selects the appropriate patches (or dummy patches) by using the embossed icon as a reference, stacks the patches on (or filling in empty spaces that are originally occupied by unused patches on) the platform, (2) inserts a battery and closes the protection cap, (3) affixes the bandage to chest, and (4) covers the entire bandage with transparent film dressings if water-proof is needed.
-
-In addition to vertical stacking mechanism shown in Figure \ref{bandage_stacking}(a), 
-
-\vspace{15pt}
-\begin{figure}[ht]
+\begin{figure}
 \centering
 \includegraphics[width=15cm]{image/bio_dc_adc}
 \caption{An example of using BioScope to prototype a breathalyzer.}
 \label{dc_adc}
 \end{figure}
-\vspace{5pt}
 
 \vspace{10pt}
 \subsubsection{Power source}
 Each component in the system may require various power supply range. Since a component may require a supply voltage higher or lower than the voltage from li-ion battery (4.2V), the voltage of power source should be converted to proper voltage. A linear regulator can be used to lower the power source to the working supply voltage. The mainboard equips a Microchip MIC5392 regulator with two 3V outputs, one output supplies the microcontroller and another output supplies peripheral patches that can be turned on/off by microcontroller. If the supply voltage of a component is higher than power source, a DC-DC converter can converts the voltage to a higher voltage. In figure \ref{dc_adc}, the supply voltage of the gas sensor is 5V which is higher than the voltage of the battery. Therefore, we place a compact DC-DC convertor, a Texas Instruments TPS81256, to boost the voltage to 5V and provide sufficient current to enable the sensor.
+A compact switch button is mounted on the mainboard used to wake-up and reset the system. For power saving purpose, the system must be able to enter low frequency mode which only can be waked up by external interrupt. All peripheral components and radio frequency function can not work in low power mode. Also, the system will scan plugged patches when reset is triggered and wait the command from terminal device, i.e., mobile phone. 
 
 \vspace{10pt}
 \subsubsection{Data communication}
@@ -62,7 +75,7 @@ However, some sensors are designed to output analog signals to deliver sensory d
 \subsubsection{Horizontal expansion}
 In addition to vertical stacking (Figure ?), the system provide horizontal expansion supported by a tiny H-bridge board (Figure ?), which has two sets of plug and receptacle connectors. The H-bridge board can be connected on plug connector or receptacle connector on the top or button of the board (Figure ?). For advanced developers, they may need to connect a component the system doesn't support. A breakout board (Figure ?) can be use to test new component for developing new patch for BioScope platform. The developer can evaluate customized component as well as off-the-shelf development toolkit.
 
-\subsection{Sensor Patches}
+\subsection{Patches}
 To collect biosignals, such as electrocardiogram (ECG) signals, two pre-allocated electrodes (i.e., two conductive copper areas situated 6.4 cm apart at opposite ends of the bandage) are coated with a thin layer of electrical gel (Figure \ref{bandage_stacking}(b)).The sensor patches, consisting of small sensor boards sandwiched between two thin layers of 3D-printed elastic filaments, are mounted on the bandage-like platform using connectors. To demonstrate the concept of this system, we designed six types of patch — biopotential, thermal, acoustic, mobility, interaction and recharging patches — to facilitate the collection in the most commonly monitored data in healthcare applications.
 The detail of those six types of patch are described in follows.
 \vspace{15pt}
@@ -84,18 +97,20 @@ This 10 mm × 24 mm patch is stacked in the contact layer and measures the skin 
 \newline
 \textbf{Mobility patch:}
 \newline
-This 11 mm × 24 mm patch, stacked in the inner layer, monitors the mobility level of a person. For example, to prevent complications caused by reduced mobility levels and assess functional recovery, users must track the mobility level of patients. On this patch, a Bosch BMA250 accelerometer is used to collect acceleration readings, which indicate whether a person is moving or stationary. The mobility level can be derived by calculating the percentage of time a person is moving.
-\vspace{10pt}
-\begin{figure}[ht]
+This 11 mm × 24 mm patch, stacked in the inner layer, monitors the mobility level of a person. For example, to prevent complications caused by reduced mobility levels and assess functional recovery, users must track the mobility level of patients. On this patch, an InvenSense MPU6050 6-axis motion sensor is used to collect motion readings, which indicate whether a person is moving or stationary. The mobility level can be derived by calculating the percentage of time a person is moving.
+
+
+\begin{figure}
 \centering
-\includegraphics[width=12.5cm]{image/bio_fig1_5}
-\caption{Interaction patch.}
+\includegraphics[width=14cm]{image/bio_fig1_5}
+\caption{Interaction patch includes OLED display and on-the-air gesture sensor}
 \label{interaction_patch}
 \end{figure}
-\newline
+
+
 \textbf{Interaction patch:}
 \newline
-To enrich data feedback and user interaction for exercise applications, we also expanded an interaction patch that consists of a wearable display (0.96” OLED display4), and a touchless gesture sensor (Avago APDS-9960) that is used to recognize four directions (up, down, left and right) of in-air swipe gesture. The gesture can be used to switch between different sensor's data or different data representations as shown in Figure \ref{interaction_patch}. The interaction patch is connected to main board through stacking mechanism as well. When a mobile device attempts to establish connection with particular one of multiple wearable devices. To simplify Bluetooth pairing procedure for quickly retrieving data or configuring device, a NXP NTAG203 NFC tag is embedded in wearable device.
+To enrich data feedback and user interaction for exercise applications, we also expanded an interaction patch (Figure \ref{interaction_patch}) that consists of a tiny display (0.96” OLED display), and a touchless gesture sensor (Avago APDS-9960) that is used to recognize six directions (near, far, up, down, left and right) of on-the-air swipe gesture. The gesture can be used to switch between different sensor's data or different data representations. The interaction patch is connected to main board through stacking mechanism as well. When a mobile device attempts to establish connection with particular one of multiple wearable devices. To simplify Bluetooth pairing procedure for quickly retrieving data or configuring device, a NXP NTAG203 NFC tag is embedded in wearable device.
 \vspace{10pt}
 \begin{figure}[ht]
 \centering
@@ -134,13 +149,50 @@ To examine whether the system can detect reasonable values for the average heart
 
 \section{Visualization of Sensory Data}
 The hardware design of BioScope sensing platform enables flexibility and extensibility, its firmware and software have corresponding design consideration to promote the prototyping phase of design process. This section describes the visualization of sensory data that allows users can simply receive raw and/or primitive processed data from sensors. Visualization is an efficient way that can assist users to easily understand the characteristics of sensors. 
-In order to simplify the usage of the system for non-engineering background users, BioScope platform provides the basic mechanisms provided by BioScope platform to visualize sensory data: (1) display on mobile device and (2) wearable display. The users can simply plugs needed patches into mainboard of BioScope. The default firmware can detect connected patches and run corresponding routine to collect sensory data and provide feedback.
+In order to simplify the usage of the system for non-engineering background users, BioScope platform provides the basic mechanisms provided by BioScope platform to visualize sensory data: (1) wearable display and (2) display on mobile device. The users can simply plugs needed patches into mainboard of BioScope. The default firmware can detect connected patches and run corresponding routine to collect sensory data and provide feedback.
 
-\subsubsection{Configuration}
+\begin{figure}
+\centering
+\includegraphics[width=14cm]{image/fig_config.ps}
+\caption{The steps of configuration for data visualization.}
+\label{fig_config}
+\end{figure}
+
+\subsection{Configuration}
+BioScope platform allows users to easily configure the system for collecting sensory data and receiving feedback from chosen patches with several simple steps. We provide the mobile app running on top of Android for configuration. 
+The main steps of configuration for data visualization is shown in Figure \ref{fig_config}. 
+
+\subsubsection{System off} 
+This is the initial state of the system, when the device is not applied a power source, i.e., install/recharge battery, or user configures the device to turn off the device.
+As well as many off-the-shelf electronic products, the device doesn't have an on/off switch to shutdown the device. 
+Instead, the system will enter to low power mode, because the consumed current in low power mode is negligible ($\sim$16 uA). 
+The device will be turned to system off mode caused by two conditions: (1) pressing reset button on the device then idle for one minute, and (2) receiving the off command from mobile phone.
+In low power mode, the microcontroller switches to secondary oscillator with low system frequency (32.768kHz) and turns off all internal components of the microcontroller for power saving. The device can only be waked up by external interrupt in system off mode.
+
+\subsubsection{Stack patches and casing} 
+User can choose needed sensor patches and components to construct a customized device by simply stacking patches on the mainboard. Then the device is placed into a 3D printing case with the elastic filaments, e.g., bandage case.
+When the device is booted, the system will blink the on-board LED and scan stacked patches on the mainboard through I2C and SPI bus. For the patches with I2C bus, the system will query the specific addresses defined in the BioScope system to check whether the patch exists. For the patches with SPI bus, the system will query the connected patch by setting each slave select pin to high voltage individually.
+
+\subsubsection{Display data}
+The mobile phone is used as a terminal for configuring device and visualizing sensory data via Bluetooth radio.
+The mobile phone is the central and the BioScope device is peripheral in the wireless topology.
+After stacking the chosen patches and casing, user can use the mobile phone to establish the connection with device.
+Then user can configure the mobile phone to display sensory data on the screen.
+
+The device can also operate without communication with the mobile phone.
+When the interaction patch is detected on the I2C bus, the system will run the corresponding process for basic sensing and feedback functions with wearable display.
+Users can switch and control the displayed sensory data through the touchless gesture sensor on the interaction patch.
+The system also allows the device to be further configured and accessed through the user interface on mobile phone as well.
+
+\subsection{User Interface on Mobile Device}
 
 
-\subsubsection{Data Processing}
+\subsection{Data Processing}
 
+\subsection{Data Representation}
 
 \section{Platform APIs}
 
+
+
+\let\cleardoublepage\clearpage

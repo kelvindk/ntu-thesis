@@ -106,6 +106,13 @@ A.~A. Ali, S.~M. Hossain, K.~Hovsepian, M.~M. Rahman, K.~Plarre, and S.~Kumar.
   Information Processing in Sensor Networks}, IPSN '12, pages 269--280, New
   York, NY, USA, 2012. ACM.
 
+\bibitem{Barrett2014}
+P.~M. Barrett, R.~Komatireddy, S.~Haaser, S.~Topol, J.~Sheard, J.~Encinas,
+  A.~J. Fought, and E.~J. Topol.
+\newblock {Comparison of 24 Hour Holter Monitoring Versus 14 Day Novel Adhesive
+  Patch Electrocardiographic Monitoring}.
+\newblock {\em The American Journal of Medicine}, Oct. 2013.
+
 \bibitem{camarillo2013head}
 D.~Camarillo, J.~Mattson, M.~Flynn, S.~Yang, P.~Shull, R.~Shultz, G.~Matheson,
   and D.~Garza.
@@ -153,6 +160,15 @@ J.~Greenbaum and M.~Kyng, editors.
 \newblock {\em Design at Work: Cooperative Design of Computer Systems}.
 \newblock L. Erlbaum Associates Inc., Hillsdale, NJ, USA, 1992.
 
+\bibitem{Hachisuka:2003}
+K.~Hachisuka, A.~Nakata, T.~Takeda, Y.~Terauchi, K.~Shiba, K.~Sasaki,
+  H.~Hosaka, and K.~Itao.
+\newblock Development and performance analysis of an intra-body communication
+  device.
+\newblock In {\em TRANSDUCERS, Solid-State Sensors, Actuators and Microsystems,
+  12th International Conference on, 2003}, volume~2, pages 1722--1725 vol.2,
+  June 2003.
+
 \bibitem{dtool}
 B.~Hartmann, S.~R. Klemmer, M.~Bernstein, L.~Abdulla, B.~Burr,
   A.~Robinson-Mosher, and J.~Gee.
@@ -161,6 +177,13 @@ B.~Hartmann, S.~R. Klemmer, M.~Bernstein, L.~Abdulla, B.~Burr,
 \newblock In {\em Proceedings of the 19th Annual ACM Symposium on User
   Interface Software and Technology}, UIST '06, pages 299--308, New York, NY,
   USA, 2006. ACM.
+
+\bibitem{KristofVanLaerhoven:2000}
+K.~V. Laerhoven and O.~Cakmakci.
+\newblock What shall we teach our pants?
+\newblock In {\em Proceedings of the 4th IEEE International Symposium on
+  Wearable Computers}, ISWC '00, pages 77--, Washington, DC, USA, 2000. IEEE
+  Computer Society.
 
 \bibitem{Lane:2015:ZCD:2742647.2742672}
 N.~D. Lane, P.~Georgiev, C.~Mascolo, and Y.~Gao.
@@ -272,13 +295,5 @@ K.~Yatani and K.~N. Truong.
 \newblock Bodyscope: A wearable acoustic sensor for activity recognition.
 \newblock In {\em Proceedings of the 2012 ACM Conference on Ubiquitous
   Computing}, UbiComp '12, pages 341--350, New York, NY, USA, 2012. ACM.
-
-\bibitem{You2016Ket}
-C.-W. You, Y.-F. Lin, C.-Y. Li, Y.-L. Tsai, M.-C. Huang, C.-H. Lee, H.-C. Wang,
-  and H.-H. Chu.
-\newblock Kediary: Using mobile phones to assist patients in recovering from
-  drug addiction.
-\newblock In {\em Proceedings of the 2016 CHI Conference on Human Factors in
-  Computing Systems}, CHI '16, pages 5704--5709, New York, NY, USA, 2016. ACM.
 
 \end{thebibliography}

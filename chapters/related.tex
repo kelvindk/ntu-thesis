@@ -24,72 +24,30 @@ Since wearable devices are deployed and worn on humans constantly, usability pla
 %some HCI researchers have paid their attention to develop better rapid prototyping .
 %For example, 
 
-\section{Case Study of Developing a Wearable Device: Sensor-Embedded Teeth for Oral Activity Recognition}
-This section presents a case study that we experienced the design and implementation of a wearable oral sensory system that recognizes human oral activities, such as chewing, drinking, speaking, and coughing from scratch without using any platform/tool support. 
+\section{Lesson Learned from Case Studies of Developing Health Applications}
+This section discusses our lesson learned from prior case studies that we experienced the design and implementation of a wearable oral sensory system that recognizes human oral activities, such as chewing, drinking, speaking, and coughing from scratch without using any platform/tool support. 
 
-\subsection{Motivation}
-The human mouth is one part of the human body that is almost always in constant use. We use our mouth to perform some of the most important daily functions, such as eating, drinking, speaking, coughing, breathing, and smoking. Because our mouth is an opening into assessing the health of the human body, it presents the opportunity for the placement of a strategic sensor for detecting human oral activities. For this study, we developed such an oral sensory system, where we explored the use of a small motion sensor embedded inside artificial teeth for the recognition of human oral activities. The detection of human oral activities can enable numerous health care applications, such as food and fluid intake monitoring.   
-%Previous research has explored wearable sensory devices installed in various locations of the upper body for detecting human oral activities. For example, Amft et al. \cite{Amft:2005} used an earphone-attached microphone sensor to record human chewing sounds and detect food types based on their acoustic profiles. Amft et al. \cite{Amft:pervasive2009} proposed another approach that combined surface Electromyography (EMG) and a microphone worn around the neck area to recognize low- or high-volume swallowing actions. BodyScope \cite{Yatani:2012} placed an acoustic sensor around the neck area to recognize different oral activities (e.g., eating, drinking, speaking, laughing, and coughing) by analyzing sounds generated from the throat area. In comparison, our oral sensory system explores a unique sensor placement not on the human body, but inside the human body, specifically the mouth. Because a sensor placement inside the mouth has the advantage of being in proximity to where oral activities actually occur, this enables our oral sensory system to accurately capture the motion of oral activities. 
-This study presents the design and evaluation of this in-mouth oral sensory system, which uses a small accelerometer sensor embedded inside artificial teeth. Our motivation was based on our observation that most oral activities, such as chewing, drinking, speaking, and coughing, each produce a unique teeth motion. By recording and identifying teeth motion profiles for each oral activity, the proposed oral sensory system builds classifiers that distinguish different human oral activities. 
-%The main contributions of this work are as follows: (a) We introduce an in-mouth, motion-based oral sensory system for detecting human oral activities; and (b) We conducted a laboratory experiment with 8 participants performing four common oral activities, which are chewing, drinking, speaking, and coughing. The results demonstrated the feasibility of this oral sensory system, in which a person-dependent classifier achieved 93.8\% recognition accuracy, and a person-independent classifier achieved 59.8\% accuracy.
-
-
-
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=14cm]{image/teeth.png}
-\caption{The breakout board with (b) tri-axial accelerometer and (a)(c) sensor embedded denture.}
-\label{teeth_overview}
-\end{figure}
-
-
-%\subsection{System Overview}
-%The system consists of two main components: (a) an oral sensory unit; and (b) oral activity classifiers. 
-
-\subsection{Oral Sensory Unit}
-Figure \ref{teeth_overview}(b) shows a small breakout board with a tri-axial accelerometer sized 4.5 mm x 10 mm. This small breakout board is sufficiently small to be embedded inside a removable artificial tooth, as shown in Figure \ref{teeth_overview}(a) andFigure \ref{teeth_overview}(c). To ensure that this sensor board is safe and saliva-proof for human mouth placement, we carefully coated the sensor board with dental resin. In actual system deployment, this sensor board would include a small Bluetooth radio capable of wirelessly transmitting sensor data to a nearby mobile phone for data analysis and oral activity recognition. In the current proof-of-concept system, we have yet to place a Bluetooth radio on this oral sensory unit; therefore, thin wires are used to connect the sensor board to an external data-logging device for data retrieval and power. These thin wires also protect users from accidentally swallowing the sensor units.
-
-\subsubsection{Oral Activity Analysis}
-Oral activity recognition comprises the following three steps: (1) data preprocessing, (2) feature extraction, and (3) data classification. These steps are described as follows: 
-\vspace{15pt}
-\newline 
-\textsl{\textbf{Data preprocessing:}}
-\newline
-The sampling rate of the accelerometer sensor is set to 100 Hz. The system first divides the accelerometer data into windows of 256 samples with a 50\% overlap between consecutive windows [4]. In each data window, the system extracts the time-domain and frequency-domain features shown in Table 2. 
-Because people have different mouth and teeth specifications, sensor orientation can change for different users. Thus, accelerometer readings must be adjusted and calibrated using a rotation matrix. During the calibration phase, the proposed system asks users to hold their head straight and still for a few seconds during the application of Rodrigues' rotation formula to compute this rotation matrix. Each oral sensor unit has its own rotation matrix, which is used to transform its sensor readings from the device's coordinates to real-world coordinates. This normalization procedure reduces the negative effect of errors caused by varying device orientation. Because this normalization procedure reduces, but does not completely remove this error, the system also extracts orientation-independent features based on the magnitudes of x-, y-, and z-axis acceleration. For each sample at time t, its magnitude data is calculated as $\sqrt{x_{t}^{2}+y_{t}^{2}+z_{t}^{2}}$.
-
-
-The normalized (orientation-dependent) feature set and the orientation-independent feature set have different characteristics. The normalized feature set retains separate information on tri-axial acceleration values, which are required for distinguishing activities involving both vertical and horizontal movements. In contrast, the orientation-independent feature set is based on the magnitude value, in which its precision is less affected by changes in device orientation; thus, it is suitable for distinguishing activities that depend on the movement scale.
-
-\textsl{\textbf{Feature extraction:}}
-We extracted the time-domain and frequency-domain features from each data window. Frequency-domain features are computed using the FFT algorithm. Both real and imaginary components of FFT coefficients in the 256-sample window are used to generate 256 features. Overall, the system trains activity classifiers by computing and extracting the following two feature sets: 807 features (269 features per axis acceleration) from the normalized feature set, and 269 features from the device-independent feature set.
-
-
-\textsl{\textbf{Training Classifiers:}}
-Our system implements three classifiers: the C4.5 Decision Three (DT), the Multivariate Logistic Regression (MLR), and the Support Vector Machine (SVM). The SVM classifier uses the radial basis function kernel and one-against-one multiclass classification, and it is further optimized by an additional parameter selection and data scaling. To filter out redundant and irrelevant features, we performed feature selection based on the correlations between features. Low-relevance features with low correlation are filtered out. We adopted principal component analysis [5] as a feature selector, in which the number of relevant features was reduced to 137. 
-For each classification algorithm of the DT, the MLR, and the SVM, we trained two classifiers: person-dependent and person-independent. A person-dependent classifier uses data from all users (i.e., 8 participants in our study) to train a generalized activity model for recognizing the oral activities of different users. Conversely, a person-independent classifier uses 7 users' data to train a specify activity model for recognizing remaining person's oral activities.
-
-\textsl{\textbf{Experiment results:}}
-Eight users (5 males and 3 females) participated in this experiment. They were asked to install the oral sensor unit inside their mouth while performing each of these four oral activities: chewing, drinking, talking, and coughing. Because it was not possible to customize a removable tooth for each participant, we used dental cement to fix the sensor units to each participant's tooth.
-We conducted 10-fold cross-validation and leave-one-person-out cross-validation to measure the accuracies of the person-dependent and person-independent classifiers. For the person-dependent classifiers, each round of cross-validation involved using all of each participant's data for both training and testing. Table 2 shows the mean F-measure accuracy results. The SVM (93.8\%) classifier outperforms both the DT (52.2\%) and MLR (60.5\%) classifiers. 
-For the person-independent classifiers, each round of cross-validation involved using 7 participants' data for training, and the remaining participant's data for testing. Table 3 shows the mean F-measure accuracy results. Again, the SVM (59.8\%) classifier outperformed both the DT (40.8\%) and MLR (55.9\%) classifiers. Reasons for the low-accuracy result in the person-independent classifier are as follows.
-First, because people's teeth and mouth structure are different, their sensor placements are also (slightly) different, thus creating variations in the motion data. Second, people perform oral activities differently; for instance, some people chew or talk faster, slower, harder, or softer. It is possible to improve the accuracy of person-independent classification by extending the training set to include different sensor placements and oral activity types.
-
-\subsubsection{Summary}
-In this study, we implement a sensor-embedded teeth \cite{Li2013teeth} to demonstrate the feasibility of sensing humans's oral activities with in-mouth sensor. We have yet to place a Bluetooth radio on this oral sensory unit; therefore, thin wires are used to connect the sensor board to an external data-logging device for data retrieval and power.
-As with section above, we describe the effort for manufacturing the breakout board and constructing the oral activity sensing system.
-As a proof-of-concept system, the effort of customization is relatively low comparing with building a more complicated device used in field study deployment for other applications.
-
-Given another example, our other study, the KetDiary \cite{You2016Ket}, is a phone-based support system to enable the self-monitoring of ketamine use by recovering patients after returning to everyday life. 
-We build a saliva-screening device to determine patient's ketamine use.
-The microcontroller triggers the camera module to capture images of the reaction zone of the test strip. When the microcontroller receives an image from the camera, a Bluetooth Low Energy (BLE) radio is used to transmit images to the patient's smartphone. 
-A phone app is built on Android platform to enable the self-monitoring and progress visualization. 
-Although, the implementation in the KetDiary is a mobile device rather than a wearable device, but this project shows that it required a lot of effort and significant engineering skill to build the system in order to use the device for a three-week study involving three ketamine-dependent patients.
-This study involves a lot of effort to implementation. First, we customize a circuit board which has a Nordic NRF51822 for BLE radio, a STMicroelectronics STM32F407 for processing camera data. and a Texas Instruments BQ24040 for recharging a 2400-mAh Li-ion battery. Second, we design a disposable test cassette that can test users' drug use and spit action. The cases of the device and cassette are made by 3D printing. Third, we implement and design the firmware of the device and the phone app. 
+%In these studies, we implement a sensor-embedded teeth \cite{Li2013teeth} to demonstrate the feasibility of sensing humans's oral activities with in-mouth sensor. We have yet to place a Bluetooth radio on this oral sensory unit; therefore, thin wires are used to connect the sensor board to an external data-logging device for data retrieval and power.
+%As with section above, we describe the effort for manufacturing the breakout board and constructing the oral activity sensing system.
+%As a proof-of-concept system, the effort of customization is relatively low comparing with building a more complicated device used in field study deployment for other applications.
+%
+%\begin{figure}
+%\centering
+%\includegraphics[width=14cm]{image/fig_ket.eps}
+%\caption{(a) Saliva-screening device and main board. (b) Replaceable test cassette and auxiliary board showing (c) positive and (d) negative line patterns, which appear in the reaction zone of the cassette.}
+%\label{ket_diary}
+%\end{figure}
+%
+%Given another example (Figure \ref{ket_diary}), the KetDiary \cite{You2016Ket} is a phone-based support system to enable the self-monitoring of ketamine use by recovering patients after returning to everyday life. 
+%We build a saliva-screening device to determine patient's ketamine use.
+%The microcontroller triggers the camera module to capture images of the reaction zone of the test strip. When the microcontroller receives an image from the camera, a Bluetooth Low Energy (BLE) radio is used to transmit images to the patient's smartphone. 
+%A phone app is built on Android platform to enable the self-monitoring and progress visualization. 
+%Although, the implementation in the KetDiary is a mobile device rather than a wearable device, but this project shows that it required a lot of effort and significant engineering skill to build the system in order to use the device for a three-week study involving three ketamine-dependent patients.
+%This study involves a lot of effort to implementation. First, we built a prototype to test and evaluate the sensing ability and functionality of each component using off-the-shelf development toolkit.
+%After all components are validated by preliminary prototype, we customize a circuit board to make the device more compact and robust for surviving in real study. Second, the customized circuit board has a Nordic NRF51822 for BLE radio, a STMicroelectronics STM32F407 for processing image data from embedded camera, and a Texas Instruments BQ24040 for recharging a 2400-mAh Li-ion battery. Third, we design a disposable test cassette that can test users' drug use and spit action. The cases of the device and cassette are made by 3D printing. Forth, we implement and design the firmware of the device, the phone app and data server.
 
 In order to provide a easy to use system, it requires a lot of effort and time to go through many iterations in refining modality, trouble-shooting and usability test.
 In addition to the cost in building such system, developers also require significant engineering skills. However, some designers and/or developers may not be able to deal with those processes as well. Therefore, we consider that designers and/or developers should need a way to mitigate the effort and cost in the design process for building their system.
-
 
 \section{Rapid Prototyping for Wearable Applications}
 The iterative design \cite{Nielsen:1993:IUD:618985.619982, tripp1990rapid, van2007design} between ideate, prototype and test is the most costly part in the entire design process.
@@ -149,3 +107,4 @@ In addition to making a modular design in manufacturing phase, i.e., each compon
 Those examples show that the modular design can be a useful concept to benefit rapid prototyping for developing wearable applications. 
 In our BioScope platform, we leverage the concept of the modular design to enable flexibility and extendibility that can assist researcher, designer and developer for rapid prototyping their health applications. However, the design of the wearable platform has a lot of challenges that the platform can meet the needs of our users who may not have engineering background and/or related training. In the next section, we will introduce the design exploration that explore the design criteria of prototyping wearable for health applications through two focus groups and two participatory design workshops.
 
+\let\cleardoublepage\clearpage

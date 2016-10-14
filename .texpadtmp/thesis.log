@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.3.8)  9 OCT 2016 17:52
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.3.8)  14 OCT 2016 18:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -991,18 +991,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 ] (./chapters/abstract.tex [2
 
-]) [3
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [4
+ [3
 
-] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.toc
+]) [4] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
- [5])
+ [5
+
+])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
@@ -1012,62 +1015,42 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [7
 
-] [8
-
 ] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
- [9] [10
+ [8
 
 ] (./chapters/introduction.tex
 Chapter 1.
 ) (./chapters/related.tex [1
 
-] [2
 
 ]
 Chapter 2.
-[3]
-Underfull \vbox (badness 3724) has occurred while \output is active []
+[2
 
- [4]
-File: image/teeth.png Graphic file (type QTm)
- <use  "image/teeth.png" >
-LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/m/sl' in size <12> not available
-(Font)              Font shape `EU1/TimesNewRoman(0)/m/it' tried instead on input line 59.
-LaTeX Font Info:    Font shape `EU1/TimesNewRoman(0)/bx/sl' in size <12> not available
-(Font)              Font shape `EU1/TimesNewRoman(0)/bx/it' tried instead on input line 59.
-
-Underfull \vbox (badness 1360) has occurred while \output is active []
-
- [5] [6]
-Overfull \hbox (6.11469pt too wide) in paragraph at lines 71--74
-\EU1/TimesNewRoman(0)/m/n/12 (DT), the Multivariate Logistic Regression (MLR), and the Support Vector Machine (SVM).
+]
+Overfull \hbox (17.85066pt too wide) in paragraph at lines 27--27
+[]\EU1/TimesNewRoman(0)/bx/n/17.28 Lesson Learned from Case Studies of Developing Health
  []
 
-
+[3] [4] [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7] [8]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9] [10] [11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12] [13]) (./chapters/exploration.tex [14]
+ [6] [7] [8]) (./chapters/exploration.tex [9]
 Chapter 3.
-[15
+[10
 
 ]
 Underfull \vbox (badness 3229) has occurred while \output is active []
 
- [16]
+ [11]
 Overfull \hbox (5.72015pt too wide) in paragraph at lines 26--29
 \EU1/TimesNewRoman(0)/m/n/12 themselves and presented the five design ideas that they had prepared for their pre-workshop
  []
 
-[17]
+[12]
 Overfull \hbox (10.89485pt too wide) in paragraph at lines 39--43
 \EU1/TimesNewRoman(0)/m/n/12 els have various requirements for prototyping. To better understand the needs of engineering-
  []
@@ -1075,41 +1058,66 @@ Overfull \hbox (10.89485pt too wide) in paragraph at lines 39--43
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
+ [13]
 Overfull \hbox (0.60362pt too wide) in paragraph at lines 44--46
 \EU1/TimesNewRoman(0)/m/n/12 recordings of the participatory design workshops were transcribed and coded. With lessons
  []
 
-[19] [20]) (./chapters/bioscope.tex [21] [22
-
-]
+[14] [15]) (./chapters/bioscope.tex [16]
 Chapter 4.
 File: image/bio_fig0.png Graphic file (type QTm)
 <use  "image/bio_fig0.png" >
 File: image/bio_fig1.png Graphic file (type QTm)
- <use  "image/bio_fig1.png" > [23]
+ <use  "image/bio_fig1.png" > [17
+
+] [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+File: image/bio_stack.png Graphic file (type QTm)
+ <use  "image/bio_stack.png" > [20]
 File: image/bio_fig2.pdf Graphic file (type QTm)
- <use  "image/bio_fig2.pdf" > [24] [25]
+ <use  "image/bio_fig2.pdf" >
 File: image/bio_dc_adc.png Graphic file (type QTm)
- <use  "image/bio_dc_adc.png" > [26] [27]
+ <use  "image/bio_dc_adc.png" > [21] [22] [23] [24]
 File: image/bio_fig1_5.png Graphic file (type QTm)
  <use  "image/bio_fig1_5.png" >
 File: image/bio_recharge.png Graphic file (type QTm)
- <use  "image/bio_recharge.png" > [28]
+ <use  "image/bio_recharge.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29] [30]
+ [25] [26]
 File: image/bio_fig4.png Graphic file (type QTm)
- <use  "image/bio_fig4.png" > [31] [32]) (./chapters/conclusion.tex
+ <use  "image/bio_fig4.png" > [27] [28]
+File: image/fig_config.ps Graphic file (type eps)
+ <image/fig_config.ps> [29] [30]) (./chapters/conclusion.tex [31]
+Chapter 5.
+) (./chapters/apx_a.tex [32
+
+]
+Appendix A.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33] [34]
-Chapter 5.
-) [35
+ [33
 
-] [36
+]
+File: image/teeth.png Graphic file (type QTm)
+ <use  "image/teeth.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.bbl
+ [34] [35]
+File: image/teeth_table1.ps Graphic file (type eps)
+ <image/teeth_table1.ps> [36] [37] [38]
+File: image/teeth_table2.ps Graphic file (type eps)
+ <image/teeth_table2.ps>
+File: image/teeth_table3.ps Graphic file (type eps)
+ <image/teeth_table3.ps> [39]
+Overfull \hbox (3.23384pt too wide) in paragraph at lines 83--85
+\EU1/TimesNewRoman(0)/m/n/12 dependent SVM classifier achieved a high F-measure accuracy of 93.8$[]$, whereas a person-
+ []
+
+[40]) [41] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.bbl
 *************************************************
 * xeCJK warning: "CJKfamily-Unknown"
 * 
@@ -1128,20 +1136,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--51
 []\EU1/TimesNewRoman(0)/m/n/12 Intel Edison.  $[][][][] [] [] [] [][][] [] [][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][] [] [][] [] [][][][][][][][][][][][][][][][] []
  []
 
-[37
+[42
 
-] [38] [39] [40]) [41] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.aux)
+
+] [43] [44] [45] [46]) [47] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 18316 strings out of 493638
- 365386 string characters out of 6144793
- 379224 words of memory out of 5000000
- 21552 multiletter control sequences out of 15000+600000
- 6608 words of font info for 52 fonts, out of 8000000 for 9000
+ 18330 strings out of 493638
+ 365482 string characters out of 6144793
+ 371224 words of memory out of 5000000
+ 21561 multiletter control sequences out of 15000+600000
+ 6600 words of font info for 51 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 61i,7n,72p,10439b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,7n,72p,10439b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.pdf (51 pages).
+Output written on /Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.pdf (55 pages).

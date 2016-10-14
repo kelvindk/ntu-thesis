@@ -314,45 +314,45 @@ Warning--to sort, need author or key in AltiumDesigner
 Warning--empty journal in gartner2016wearable
 Warning--empty booktitle in Muller:2002:PDT:772072.772138
 Warning--can't use both volume and number fields in walker2002high
-You've used 52 entries,
+You've used 54 entries,
             2118 wiz_defined-function locations,
-            794 strings with 12252 characters,
-and the built_in function-call counts, 16820 in all, are:
-= -- 1688
-> -- 679
-< -- 19
-+ -- 287
-- -- 230
-* -- 1049
-:= -- 2444
-add.period$ -- 148
-call.type$ -- 52
-change.case$ -- 266
+            807 strings with 12781 characters,
+and the built_in function-call counts, 17700 in all, are:
+= -- 1767
+> -- 735
+< -- 21
++ -- 309
+- -- 250
+* -- 1118
+:= -- 2587
+add.period$ -- 154
+call.type$ -- 54
+change.case$ -- 282
 chr.to.int$ -- 0
-cite$ -- 78
-duplicate$ -- 692
-empty$ -- 1486
-format.name$ -- 230
-if$ -- 3789
+cite$ -- 80
+duplicate$ -- 723
+empty$ -- 1545
+format.name$ -- 250
+if$ -- 3973
 int.to.chr$ -- 0
-int.to.str$ -- 52
-missing$ -- 33
-newline$ -- 240
-num.names$ -- 59
-pop$ -- 402
+int.to.str$ -- 54
+missing$ -- 35
+newline$ -- 250
+num.names$ -- 63
+pop$ -- 420
 preamble$ -- 1
-purify$ -- 219
+purify$ -- 233
 quote$ -- 0
-skip$ -- 596
+skip$ -- 622
 stack$ -- 0
-substring$ -- 935
-swap$ -- 211
-text.length$ -- 19
+substring$ -- 977
+swap$ -- 222
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 198
+type$ -- 206
 warning$ -- 26
-while$ -- 119
-width$ -- 54
-write$ -- 519
+while$ -- 125
+width$ -- 56
+write$ -- 541
 (There were 57 error messages)
