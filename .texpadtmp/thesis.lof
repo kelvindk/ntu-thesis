@@ -10,7 +10,24 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Interaction patch includes OLED display and on-the-air gesture sensor}}{26}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Recharging patch.}}{27}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Four steps for applying bandages.}}{28}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces The steps of configuration for data visualization.}}{30}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces The steps of configuration for data visualization. (a) System off. (b) Assembly: stacking patches and casing. (c) display on interaction patch. (d) display on mobile phone.}}{30}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The breakout board with (b) tri-axial accelerometer and (a)(c) sensor embedded denture.}}{34}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Overview of the Sensing Fork and Hungry Panda game application.}}{43}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces System configuration. Left: The Sensing Fork prototype. Right: The software on the smartphone.}}{44}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Electrodes and resistance sensing schematic. Marker 1 and 2 represent two fork's tines. Marker 3 is the fork's grip.}}{45}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces State transition diagram of eating actions.}}{45}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The story and flow of Hungry Panda game application.}}{48}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The examples of food items in three cuisines.}}{53}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Proposed system for daily self-monitoring of drug use, comprising saliva screening device and mobile smartphone.}}{57}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces The system architecture.}}{58}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces The reaction zone of a strip and its potential line patterns. ``C'' (``T'') means the control (test) line of the pattern.}}{59}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Electrical components on the circuit boards and connections between boards.}}{60}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Image of reaction zone illuminated using monochromatic LEDs: (a) green, (b) blue, (c) red, and (d) white. The RGB readings across the middle row of pixels in the image are plotted as a line chart below each image.}}{62}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Auxiliary board with test strip and three equivalent circuits. When the strip is dry, the equivalent circuit (b). Saliva samples are absorbed by the front cotton wick resulting in equivalent circuit (c). When the back cotton wick is also soaked, the equivalent circuit is in (d).}}{63}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Voltage samples of determining saliva test progress.}}{65}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces The row-by-row intensity analysis while validating the control line and classifying the test line.}}{67}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Differences among control region, test region, and flat area in the $i$th row.}}{68}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces User interface of smartphone application: (a) saliva screening, (b) screening results, (c) event logging and (4) ranking of risky scenario.}}{69}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces F-measure accuracy of three learning classification algorithms (SVM, RF, and LR).}}{70}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces The breakout board with (b) tri-axial accelerometer and (a)(c) sensor embedded denture.}}{34}

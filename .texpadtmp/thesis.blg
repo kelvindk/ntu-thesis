@@ -153,140 +153,143 @@ You're missing a field name---line 1131 of file ../thesis.bib
  :  %isbn = {978-1-4503-1952-2},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1171 of file ../thesis.bib
+You're missing a field name---line 1160 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1899-0},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1189 of file ../thesis.bib
+You're missing a field name---line 1178 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-011-1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1208 of file ../thesis.bib
+You're missing a field name---line 1197 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-395-2},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1227 of file ../thesis.bib
+You're missing a field name---line 1216 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-2215-7},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1245 of file ../thesis.bib
+You're missing a field name---line 1234 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1952-2},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1266 of file ../thesis.bib
+You're missing a field name---line 1255 of file ../thesis.bib
  : 
  : %doi={10.1109/MPRV.2012.40},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1280 of file ../thesis.bib
+You're missing a field name---line 1269 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2317956.2317964},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1298 of file ../thesis.bib
+You're missing a field name---line 1287 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2207676.2207693},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1314 of file ../thesis.bib
+You're missing a field name---line 1303 of file ../thesis.bib
  :  
  :  %issue_date = {December 1 - December 31, 2002},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1327 of file ../thesis.bib
+You're missing a field name---line 1316 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 11th International Conference on Human-Computer Interaction with Mobile Devices and Services},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1347 of file ../thesis.bib
+You're missing a field name---line 1336 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 22nd Annual ACM Symposium on User Interface Software and Technology},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1366 of file ../thesis.bib
+You're missing a field name---line 1355 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 15th International Conference on Intelligent User Interfaces},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1385 of file ../thesis.bib
+You're missing a field name---line 1374 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1404 of file ../thesis.bib
+You're missing a field name---line 1393 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 26th Annual ACM Symposium on User Interface Software and Technology},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1423 of file ../thesis.bib
+You're missing a field name---line 1412 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the Adjunct Publication of the 26th Annual ACM Symposium on User Interface Software and Technology},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1442 of file ../thesis.bib
+You're missing a field name---line 1431 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 2013 ACM International Conference on Interactive Tabletops and Surfaces},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1463 of file ../thesis.bib
+You're missing a field name---line 1452 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1682-8},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1483 of file ../thesis.bib
+You're missing a field name---line 1472 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-2268-3},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1501 of file ../thesis.bib
+You're missing a field name---line 1490 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-2268-3},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1519 of file ../thesis.bib
+You're missing a field name---line 1508 of file ../thesis.bib
  :  
  :  %isbn = {3-540-39634-9, 978-3-540-39634-5},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1536 of file ../thesis.bib
+You're missing a field name---line 1525 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-843-8},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1552 of file ../thesis.bib
+I was expecting a `,' or a `}'---line 1541 of file ../thesis.bib
  : 
  : year = {2004},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1576 of file ../thesis.bib
- : 
- : %author = {恵子, 杉本},
-(Error may have been on previous line)
+Repeated entry---line 1564 of file ../thesis.bib
+ : %@book{goshoku
+ :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1590 of file ../thesis.bib
+You're missing a field name---line 1579 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1580-7},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1608 of file ../thesis.bib
+You're missing a field name---line 1597 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-011-1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1889 of file ../thesis.bib
+I was expecting a `,' or a `}'---line 1878 of file ../thesis.bib
  :  
  :  primaryClass = "physics.med-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1897 of file ../thesis.bib
+I was expecting a `,' or a `}'---line 1886 of file ../thesis.bib
  : 
  : TITLE = {Nutrition research: an investment in the nation&#039;s health.},
 (Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2199 of file ../thesis.bib
+ : @misc{weka
+ :            ,
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in Instant_Heart_Rate
 Warning--to sort, need author or key in Strava
@@ -311,48 +314,58 @@ Warning--to sort, need author or key in Nascent
 Warning--to sort, need author or key in BLOCKS
 Warning--to sort, need author or key in Vigekwear
 Warning--to sort, need author or key in AltiumDesigner
+Warning--to sort, need author or key in addiction_relapse_rates
+Warning--to sort, need author or key in MobileDrugTesting
+Warning--to sort, need author or key in drugfingerprint
+Warning--to sort, need author or key in drugscan
+Warning--to sort, need author or key in drugwipe
+Warning--to sort, need author or key in ketamine_schedule_III
+Warning--to sort, need author or key in WorldDrugReport
+Warning--to sort, need author or key in saliva_test_cassette
+Warning--to sort, need author or key in springfinger
+Warning--empty year in Broadbent:2004
 Warning--empty journal in gartner2016wearable
 Warning--empty booktitle in Muller:2002:PDT:772072.772138
 Warning--can't use both volume and number fields in walker2002high
-You've used 54 entries,
+You've used 77 entries,
             2118 wiz_defined-function locations,
-            807 strings with 12781 characters,
-and the built_in function-call counts, 17700 in all, are:
-= -- 1767
-> -- 735
-< -- 21
-+ -- 309
-- -- 250
-* -- 1118
-:= -- 2587
-add.period$ -- 154
-call.type$ -- 54
-change.case$ -- 282
+            925 strings with 16433 characters,
+and the built_in function-call counts, 23702 in all, are:
+= -- 2340
+> -- 960
+< -- 23
++ -- 406
+- -- 322
+* -- 1481
+:= -- 3499
+add.period$ -- 216
+call.type$ -- 77
+change.case$ -- 383
 chr.to.int$ -- 0
-cite$ -- 80
-duplicate$ -- 723
-empty$ -- 1545
-format.name$ -- 250
-if$ -- 3973
+cite$ -- 113
+duplicate$ -- 966
+empty$ -- 2115
+format.name$ -- 322
+if$ -- 5284
 int.to.chr$ -- 0
-int.to.str$ -- 54
-missing$ -- 35
-newline$ -- 250
-num.names$ -- 63
-pop$ -- 420
+int.to.str$ -- 77
+missing$ -- 53
+newline$ -- 356
+num.names$ -- 91
+pop$ -- 599
 preamble$ -- 1
-purify$ -- 233
+purify$ -- 315
 quote$ -- 0
-skip$ -- 622
+skip$ -- 801
 stack$ -- 0
-substring$ -- 977
-swap$ -- 222
-text.length$ -- 21
+substring$ -- 1284
+swap$ -- 265
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 206
-warning$ -- 26
-while$ -- 125
-width$ -- 56
-write$ -- 541
-(There were 57 error messages)
+type$ -- 290
+warning$ -- 36
+while$ -- 168
+width$ -- 79
+write$ -- 757
+(There were 58 error messages)

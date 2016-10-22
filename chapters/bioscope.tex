@@ -149,17 +149,17 @@ To examine whether the system can detect reasonable values for the average heart
 
 \section{Visualization of Sensory Data}
 The hardware design of BioScope sensing platform enables flexibility and extensibility, its firmware and software have corresponding design consideration to promote the prototyping phase of design process. This section describes the visualization of sensory data that allows users can simply receive raw and/or primitive processed data from sensors. Visualization is an efficient way that can assist users to easily understand the characteristics of sensors. 
-In order to simplify the usage of the system for non-engineering background users, BioScope platform provides the basic mechanisms provided by BioScope platform to visualize sensory data: (1) wearable display and (2) display on mobile device. The users can simply plugs needed patches into mainboard of BioScope. The default firmware can detect connected patches and run corresponding routine to collect sensory data and provide feedback.
+In order to simplify the usage of the system for non-engineering background users, BioScope platform provides the basic mechanisms provided by BioScope platform to visualize sensory data: (1) display on interaction patch and (2) display on mobile device. The users can simply stacks needed patches on the mainboard of BioScope. The default firmware can detect attached patches and run corresponding process to collect sensory data and provide feedback.
 
 \begin{figure}
 \centering
 \includegraphics[width=14cm]{image/fig_config.ps}
-\caption{The steps of configuration for data visualization.}
+\caption{The steps of configuration for data visualization. (a) System off. (b) Assembly: stacking patches and casing. (c) display on interaction patch. (d) display on mobile phone.}
 \label{fig_config}
 \end{figure}
 
 \subsection{Configuration}
-BioScope platform allows users to easily configure the system for collecting sensory data and receiving feedback from chosen patches with several simple steps. We provide the mobile app running on top of Android for configuration. 
+BioScope platform allows users to easily configure the system for collecting sensory data and receiving feedback from chosen patches with simple steps. We provide a mobile app running on top of Android for data configuration and data visualization. 
 The main steps of configuration for data visualization is shown in Figure \ref{fig_config}. 
 
 \subsubsection{System off} 
@@ -169,9 +169,9 @@ Instead, the system will enter to low power mode, because the consumed current i
 The device will be turned to system off mode caused by two conditions: (1) pressing reset button on the device then idle for one minute, and (2) receiving the off command from mobile phone.
 In low power mode, the microcontroller switches to secondary oscillator with low system frequency (32.768kHz) and turns off all internal components of the microcontroller for power saving. The device can only be waked up by external interrupt in system off mode.
 
-\subsubsection{Stack patches and casing} 
+\subsubsection{Assembly: Stack patches and casing} 
 User can choose needed sensor patches and components to construct a customized device by simply stacking patches on the mainboard. Then the device is placed into a 3D printing case with the elastic filaments, e.g., bandage case.
-When the device is booted, the system will blink the on-board LED and scan stacked patches on the mainboard through I2C and SPI bus. For the patches with I2C bus, the system will query the specific addresses defined in the BioScope system to check whether the patch exists. For the patches with SPI bus, the system will query the connected patch by setting each slave select pin to high voltage individually.
+When the device is booted, the system will blink the on-board LED and scan stacked patches on the mainboard through I2C and SPI bus. For the patches with I2C bus, the system will query the specific addresses defined in the BioScope system to check whether the patch is attached. For the patches with SPI bus, the system will query the connected patch by setting each slave select pin to high voltage individually. Thus, the system can automatically determine attached patches without users' effort to manually input the chosen patches.
 
 \subsubsection{Display data}
 The mobile phone is used as a terminal for configuring device and visualizing sensory data via Bluetooth radio.
@@ -185,11 +185,39 @@ Users can switch and control the displayed sensory data through the touchless ge
 The system also allows the device to be further configured and accessed through the user interface on mobile phone as well.
 
 \subsection{User Interface on Mobile Device}
+The mobile device is versatile and pervasive in our daily life.
+Therefore, we built a mobile app running on top of Android platform to facilitate data visualization and device configuration.
+\vspace{10pt}
+\newline
+\textit{Device scan:}
+\newline
+The first page (Figure ? (?)) of the mobile app shows the BioScope devices nearby. The device without specific prefix in device ID is filtered out. 
+\vspace{10pt}
+\newline
+\textit{Attached patches:}
+\newline
+When user selects a device ID, the mobile device attempts to connect with device. 
+The mobile app will list all attached patches on the screen when the connection is established Figure ?(?).
+\vspace{10pt}
+\newline
+\textit{Select function:}
+\newline
+A patch may have multiple functions, user can configure and visualize the data of each function separately (Figure ?(?)).
+If the check button of each function in the list is checked, the sensory data will be logged in the storage of mobile device.
+User can export these log data to PC for further analysis.
+\vspace{10pt}
+\newline
+\textit{Config visualization:}
+\newline
+By choosing a function in the list, the data is visualized on the screen of the mobile phone. User can further config the data and data representations (Figure ?(?)).
+\vspace{10pt}
+\newline
+\textit{Data Processing:}
+\newline
+Considering application need, wireless bandwidth and power efficiency, the sensory data should be processed in different ways.
 
 
-\subsection{Data Processing}
-
-\subsection{Data Representation}
+%\subsection{Data Representation}
 
 \section{Platform APIs}
 
