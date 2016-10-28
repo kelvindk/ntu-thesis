@@ -8,6 +8,83 @@ This chapter presents the design and implementation of BioScope, a flexible and 
 \label{bio_fig0}
 \end{figure}
 
+
+\section{Design Exploration}
+
+The first step of iterative design for a wearable sensing platform is to understand the needs of potential users. We conducted two focus groups and two participatory design workshops to explore the needs from healthcare professionals.
+
+\subsection{Focus Groups}
+We conducted two focus groups to better understand the practical needs of wearable technology in clinical setting. In the first focus group, we recruited four nursing professionals and two physical therapists from National Taiwan University Hospital. In the second focus group, we recruited four nursing professionals from Taipei City Psychiatric Center (TCPC).
+
+\subsubsection{Participants}
+In the first focus group, we recruited four healthcare workers (four experienced nursing experts and two physiotherapists), aged from 27 to 46 years. The four experienced nursing experts had worked as registered nurses for more than three years and the two physiotherapists have worked in the Rehabilitation Department of National Taiwan University Hospital at least six years. These participants have prior experienced in oncology, cardiology, and orthopedics. Four experts in the second focus group, aged from 35 to 45 years, have worked as registered nurses for more than ten years at the Taipei City Psychiatric Center (TCPC) and specialized in providing inpatient psychiatric care for children, adolescents, geriatrics, and patients with substance abuse.
+
+\subsubsection{Procedures}
+The moderator of the focus group was a researcher with background in engineering. After explaining the objective of the focus group, we provide five mock-up wearable devices with different form factors to the participants. Then, the moderator asked their perceptions regarding the usability, safety, and potential applications of those form factors. The second topic of the focus group is to encourage stories with clinical scenarios that can reveal how wearable devices may benefit different healthcare applications.
+
+\subsection{Participatory Design Workshops}
+We conducted participatory design workshops to look for opportunities and constrains concerning the use of wearable sensing technologies in healthcare applications. Following the participatory design process \cite{Greenbaum:1992:DWC:125470, Muller:2002:PDT:772072.772138}, two workshops were held to co-design devices to assist healthcare workers in designing a wearable sensing platform.
+
+\subsubsection{Participants}
+Eight nursing professionals (four experienced nursing experts and four senior nursing school students), aged from 22 to 46 years, with experience in clinical nursing, were recruited. Four experienced nursing experts had worked as registered nurses for at least seven years and the four senior nursing school students had been nursing interns in hospitals for at least half a year. All participants were experienced in nursing patients in multiple medical divisions, with the main specialty spanning in divisions of oncology, pediatrics, cardiology, and orthopedics.
+
+\subsubsection{Prior to a Workshop}
+The nursing professionals were briefly introduced to the goal of this study and the structure of the workshop several days (about four to six days) prior to the workshop. Before attending the workshop, participants were asked to finish the pre-workshop homework similar to “homework” assignment to participants prior to each workshop in the PICTIVE project \cite{Muller:1991:PEP:108844.108896}. This pre-workshop homework involved a design sheet to help participants describe and/or sketch five potential ideas for designs of devices that used any related wearable sensing technology to assist them in resolving difficulties that they faced at work or in their daily life. Since the purpose of this pre-workshop homework was to encourage the participants to generate a wide range of designs in the workshop, the participants were not asked to evaluate the feasibility of their prototype devices for solving the described problems or to limit them in their focus on post-operative caring scenarios. This pre-workshop homework helped the participants to brainstorm a wide range of ideas and collect observations from their working or everyday life as a warm-up for the upcoming workshop.
+
+\subsubsection{Procedures}
+This workshop comprised of three sessions, which were (1) an engagement session, (2) a guiding session, and (3) a development session. Two participatory design workshops were held on two separate days. Each workshop lasted approximately four hours, including a half-an-hour break for lunch.
+\textbf{Engagement session:} 
+\newline
+In the engagement session (which lasted for half of an hour), all participants introduced themselves and presented the five design ideas that they had prepared for their pre-workshop homework. While presenting a design idea, each participant stuck a design note that also described the idea on a white board. Researchers generated appropriate categories and grouped similar ideas as the participants were placing their notes. After all of the notes on the white board, researchers and participants discussed and moved the notes among categories or to a new category using the affinity diagramming method. All of the categories indicate potential directions or building blocks in the development of the solution in the final design of the workshop. 
+\textbf{Guiding session:} 
+\newline
+In the guiding session (which lasted for half of an hour), a moderator, who was a researcher with an engineering background, introduced the sensing technologies or projects related to healthcare applications. The purpose of the workshop was explained to participants, which was to use wearable and/or environmental sensing technologies in the design of devices that can help healthcare workers in caring for post-operative patients in hospital. 
+\textbf{Development session:} 
+\newline
+In the final developing session (which lasted two and a half hours), four participants were separated into two pairs in which each participant could share design opinions. To stir cross-disciplinary thinking within each pair, one researcher with an engineering background helped participants to identify alternative sensing technologies for use in their design work, and another researcher with a background in industrial and commercial design expressed their design scenarios using concrete storyboards. Consistent with the work-oriented participatory design process, the goal of each design was set, which was to help healthcare workers care for patients in hospitals. To assist participants in performing the design task effectively, an A3 sheet of paper with the following fields was provided; name of their solution, target user, needs of the target user, targeted sensing events and required feedback, form factor of the designed device. The first stage of the development session involved the participants discussing the name and the target user of the designed solution using categories that were obtained from the pre-workshop homework. Following the identification of the target users, the second stage involved determining the potential needs of the target user that are associated with the solution. In the third stage, the engineering researcher discussed with participants the selection of sensors and actuators for detecting targeted events or generating the required feedback in each application scenario. When the group completed its final design, the designer cooperated with the participants to finalize the form factor of the designed device by sketching an appropriate storyboard. In the final stage, each group presented their final design, about which all participants discussed and commented.
+
+\subsection{Findings form Explorative Studies}
+%In addition to medical-background users, a team to develop an application may involve cross-disciplinary members.
+%The users with different background knowledge and skill levels have various requirements for prototyping. 
+%To better understand the needs of engineering-background users, we further conduct semi-structure interviews on 6 participants, who have experience on HCI projects (4 male and 2 female age from 22 to 33 with computer science or electrical engineering background).
+The design goal of BioScope towards a flexible and extensible platform that can fit in with different types of users. We describe the design considerations for both non-engineering background and engineering background users.
+
+For data analysis, the audio recordings of focus groups and interviews, and the video recordings of the participatory design workshops were transcribed and coded.
+With lessons learned from our study and observations, we summarize the findings of design exploration for developing a wearable sensing platform as follows.
+
+\subsubsection{Findings}
+\textbf{Form factor:}
+\newline
+Several wearable form factors are discussed to identify what are the nice characteristics as a wearable device, including wristband, neckband, sticker, bandage, badge, garment, flip flop, strap and so on. The explored characteristics include easy wearing, taking off, compact and comfortable. The device should be comfort to wear and quick to deploy. The device also can be placed on proper body location to sense physiological data.
+
+\vspace{10pt}
+\textbf{Flexibility:}
+\newline
+Because there are various types of physiological sensors that can be used to develop different healthcare applications, a fixed design can only to offer limited functions on a device. It is difficult to have one single design that can fit all requirements to develop healthcare application. Therefore, if a wearable sensing platform has flexibility that developers can build a wearable device with required sensing abilities. Then, developers can use this device as a prototype to test their tailored healthcare application. In different iterations of design process, a platform with flexibility can easily deal with the situation that developers may need to add or remove functions on the wearable device.
+
+\vspace{10pt}
+\textbf{Extensibility:}
+\newline
+A wearable sensing platform must be easily extend and upgrade its abilities. In terms of the hardware part, the platform must be able extend new component without re-design entire system. In terms of the software part, the platform must provide comprehensive APIs to allow users to construct new method, function and algorithm on top of existing components.
+
+\vspace{10pt}
+\textbf{Sensing and data:}
+\newline
+To develop a healthcare application, several types of common information are collected using wearable device, such as vital sign, physical activity and so on. Since a wearable device collects sensory data, the next step is to process the data. Then, the system can feedback the processed data to corresponding users depending on their requirement. The platform should provide a meaningful representation of data that can be understood by the user, e.g.: a pedometer shows step count rather than raw data of motion sensor.
+
+\vspace{10pt}
+\textbf{Configuration:}
+\newline
+The complexity of configuration is a key whether users will adopt a platform for developing their application or not. For non-engineering background users, they desire there is no complex steps to configure the device and the components are plug and play. For advanced developers, they would desire further customization on top of the platform to realize some specific functions and applications. 
+
+\vspace{10pt}
+\textbf{Battery life:}
+\newline
+The work period of the wearable device is a critical concern for a healthcare application. The device must be able to survive until its mission is complete. However, enabling power saving relies on correct configuration on both hardware and firmware. A proper power saving mechanism can prolong the work period of the wearable device as long as possible and can work transparently to the user without complex configuration.
+
+
+
+
 \section{BioScope System Design and Implementation}
 Based on the design considerations, we designed and implemented the BioScope system. The following subsections include (1) flexible and extensible sensing bandage, (2) stacking mechanism, (3) sensor patches, (4) explorative experiment.
 
@@ -184,6 +261,26 @@ When the interaction patch is detected on the I2C bus, the system will run the c
 Users can switch and control the displayed sensory data through the touchless gesture sensor on the interaction patch.
 The system also allows the device to be further configured and accessed through the user interface on mobile phone as well.
 
+
+\subsection{Data Processing and Representation}
+Considering application need, wireless bandwidth and power efficiency, the sensory data should be processed in different ways.
+For example, the device transmits raw data of ECG to mobile phone that requires a sampling rate of 200 Hz (400 bytes per second). 
+Such high data rate will consume a lot of power for data transmission.
+If the application needs heart rate data rather than the raw data of ECG, the device can only detect the peak of the raw data and than transmit heart rate data with sampling rate of 1 Hz (1 byte).
+Thus, the overall power consumption can be significant reduced by processing data using the microcontroller.
+However, the microcontroller may not be able to compute high complexity work, e.g., activity recognition with motion data.
+For this case, developers have to adopt higher performance processor or transit raw data to mobile phone for processing.
+
+The data can be illustrated in different representations for visualization depending on users' needs.
+For example, heart rate data can be represented in digit, pattern and icon (Figure \ref{fig_represent}).
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=14cm]{image/fig_represent.eps}
+\caption{Representations for data visualization: digit, pattern, icon.}
+\label{fig_represent}
+\end{figure}
+
 \subsection{User Interface on Mobile Device}
 The mobile device is versatile and pervasive in our daily life.
 Therefore, we built a mobile app running on top of Android platform to facilitate data visualization and device configuration.
@@ -191,13 +288,12 @@ Therefore, we built a mobile app running on top of Android platform to facilitat
 \newline
 \textit{Device scan:}
 \newline
-The first page (Figure ? (?)) of the mobile app shows the BioScope devices nearby. The device without specific prefix in device ID is filtered out. 
+The first page (Figure ? (?)) of the mobile app shows the BioScope devices nearby. The device without specific prefix in device ID is filtered out. By pressing the particular device in the list, the system will start to establish the connection with the device.
 \vspace{10pt}
 \newline
 \textit{Attached patches:}
 \newline
-When user selects a device ID, the mobile device attempts to connect with device. 
-The mobile app will list all attached patches on the screen when the connection is established Figure ?(?).
+When the connection between phone and device is established, the mobile app will list all attached patches on the screen (Figure ?(?)).
 \vspace{10pt}
 \newline
 \textit{Select function:}
@@ -209,15 +305,10 @@ User can export these log data to PC for further analysis.
 \newline
 \textit{Config visualization:}
 \newline
-By choosing a function in the list, the data is visualized on the screen of the mobile phone. User can further config the data and data representations (Figure ?(?)).
-\vspace{10pt}
-\newline
-\textit{Data Processing:}
-\newline
-Considering application need, wireless bandwidth and power efficiency, the sensory data should be processed in different ways.
-
+By choosing a function in the list, the data is visualized on the screen of the mobile phone. User can further config the data and its representations (Figure ?(?)).
 
 %\subsection{Data Representation}
+
 
 \section{Platform APIs}
 

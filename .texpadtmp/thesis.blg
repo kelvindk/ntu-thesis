@@ -327,45 +327,45 @@ Warning--empty year in Broadbent:2004
 Warning--empty journal in gartner2016wearable
 Warning--empty booktitle in Muller:2002:PDT:772072.772138
 Warning--can't use both volume and number fields in walker2002high
-You've used 77 entries,
+You've used 86 entries,
             2118 wiz_defined-function locations,
-            925 strings with 16433 characters,
-and the built_in function-call counts, 23702 in all, are:
-= -- 2340
-> -- 960
-< -- 23
-+ -- 406
-- -- 322
-* -- 1481
-:= -- 3499
-add.period$ -- 216
-call.type$ -- 77
-change.case$ -- 383
+            964 strings with 17961 characters,
+and the built_in function-call counts, 27206 in all, are:
+= -- 2706
+> -- 1113
+< -- 28
++ -- 467
+- -- 374
+* -- 1692
+:= -- 4033
+add.period$ -- 244
+call.type$ -- 86
+change.case$ -- 432
 chr.to.int$ -- 0
-cite$ -- 113
-duplicate$ -- 966
-empty$ -- 2115
-format.name$ -- 322
-if$ -- 5284
+cite$ -- 122
+duplicate$ -- 1109
+empty$ -- 2398
+format.name$ -- 374
+if$ -- 6075
 int.to.chr$ -- 0
-int.to.str$ -- 77
-missing$ -- 53
-newline$ -- 356
-num.names$ -- 91
-pop$ -- 599
+int.to.str$ -- 86
+missing$ -- 58
+newline$ -- 397
+num.names$ -- 109
+pop$ -- 672
 preamble$ -- 1
-purify$ -- 315
+purify$ -- 359
 quote$ -- 0
-skip$ -- 801
+skip$ -- 925
 stack$ -- 0
-substring$ -- 1284
-swap$ -- 265
-text.length$ -- 23
+substring$ -- 1489
+swap$ -- 319
+text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 290
+type$ -- 326
 warning$ -- 36
-while$ -- 168
-width$ -- 79
-write$ -- 757
+while$ -- 201
+width$ -- 88
+write$ -- 859
 (There were 58 error messages)

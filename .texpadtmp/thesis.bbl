@@ -177,6 +177,14 @@ M.~C., K.-B. T., and L.~J.
   fluid.
 \newblock {\em J Anal Toxicol.}, 37(5):305--307, 2013.
 
+\bibitem{Printem:2015}
+V.~P. C and D.~Wigdor.
+\newblock Printem: Instant printed circuit boards with standard office printers
+  \&\#38; inks.
+\newblock In {\em Proceedings of the 28th Annual ACM Symposium on User
+  Interface Software \&\#38; Technology}, UIST '15, pages 243--251, New York,
+  NY, USA, 2015. ACM.
+
 \bibitem{camarillo2013head}
 D.~Camarillo, J.~Mattson, M.~Flynn, S.~Yang, P.~Shull, R.~Shultz, G.~Matheson,
   and D.~Garza.
@@ -228,6 +236,19 @@ A.~Dasgupta.
   Testing}.
 \newblock Jones \& Bartlett Learning, 2011.
 
+\bibitem{eagle}
+C.~Eagle.
+\newblock Retrieved September 21, 2016 from \url{https://cadsoft.io/}, 2016.
+
+\bibitem{seeed_fusion}
+S.~F. electronic service.
+\newblock Retrieved September 21, 2016 from
+  \url{https://www.seeedstudio.com/fusion.html}, 2016.
+
+\bibitem{maker_fair}
+M.~Fair.
+\newblock Retrieved September 21, 2016 from \url{http://makerfaire.com/}, 2016.
+
 \bibitem{Fogg:2002}
 B.~J. Fogg.
 \newblock Persuasive technology: using computers to change what we think and
@@ -271,6 +292,31 @@ B.~Hartmann, S.~R. Klemmer, M.~Bernstein, L.~Abdulla, B.~Burr,
 \newblock In {\em Proceedings of the 19th Annual ACM Symposium on User
   Interface Software and Technology}, UIST '06, pages 299--308, New York, NY,
   USA, 2006. ACM.
+
+\bibitem{dtool:2006}
+B.~Hartmann, S.~R. Klemmer, M.~Bernstein, L.~Abdulla, B.~Burr,
+  A.~Robinson-Mosher, and J.~Gee.
+\newblock Reflective physical prototyping through integrated design, test, and
+  analysis.
+\newblock In {\em Proceedings of the 19th Annual ACM Symposium on User
+  Interface Software and Technology}, UIST '06, pages 299--308, New York, NY,
+  USA, 2006. ACM.
+
+\bibitem{inkjet_circuits:2013}
+Y.~Kawahara, S.~Hodges, B.~S. Cook, C.~Zhang, and G.~D. Abowd.
+\newblock Instant inkjet circuits: Lab-based inkjet printing to support rapid
+  prototyping of ubicomp devices.
+\newblock In {\em Proceedings of the 2013 ACM International Joint Conference on
+  Pervasive and Ubiquitous Computing}, UbiComp '13, pages 363--372, New York,
+  NY, USA, 2013. ACM.
+
+\bibitem{Makerspace:2015}
+J.~Knibbe, T.~Grossman, and G.~Fitzmaurice.
+\newblock Smart makerspace: An immersive instructional space for physical
+  tasks.
+\newblock In {\em Proceedings of the 2015 International Conference on
+  Interactive Tabletops \& Surfaces}, ITS '15, pages 83--92, New York, NY, USA,
+  2015. ACM.
 
 \bibitem{KristofVanLaerhoven:2000}
 K.~V. Laerhoven and O.~Cakmakci.
@@ -350,6 +396,13 @@ C.~Morgan and H.~Curran.
 \newblock Ketamine use: a review. addiction.
 \newblock {\em Addiction}, 107(1):27--38, 2012.
 
+\bibitem{Mueller:2014:FFP:2556288.2557005}
+S.~Mueller, T.~Mohr, K.~Guenther, J.~Frohnhofen, and P.~Baudisch.
+\newblock fabrickation: Fast 3d printing of functional objects by integrating
+  construction kit building blocks.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, CHI '14, pages 3827--3834, New York, NY, USA, 2014. ACM.
+
 \bibitem{Muller:1991:PEP:108844.108896}
 M.~J. Muller.
 \newblock {}-an exploration in participatory design.
@@ -366,6 +419,11 @@ M.~J. Muller.
 J.~Nielsen.
 \newblock Iterative user-interface design.
 \newblock {\em Computer}, 26(11):32--41, Nov. 1993.
+
+\bibitem{smart_prototyping}
+S.~Prototyping.
+\newblock Retrieved September 21, 2016 from
+  \url{http://smart-prototyping.com/PCB-Prototyping.html}, 2016.
 
 \bibitem{schilling2000toward}
 M.~A. Schilling.
