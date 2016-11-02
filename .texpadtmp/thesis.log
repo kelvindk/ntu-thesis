@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.3.8)  28 OCT 2016 07:37
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.3.8)  1 NOV 2016 17:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1057,7 +1057,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [6] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.lof [7
 
 ]
-Overfull \hbox (0.44952pt too wide) in paragraph at lines 33--33
+Overfull \hbox (0.44952pt too wide) in paragraph at lines 35--35
  [][] []\EU1/TimesNewRoman(0)/m/n/12 Image of reaction zone illuminated using monochromatic LEDs: (a) green, 
  []
 
@@ -1158,14 +1158,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: image/fig_config.ps Graphic file (type eps)
  <image/fig_config.ps> [33] [34]
 File: image/fig_represent.eps Graphic file (type eps)
- <image/fig_represent.eps> [35]) (./chapters/tangram.tex [36]
+ <image/fig_represent.eps> [35] [36]
+File: image/mcu_codes.eps Graphic file (type eps)
+ <image/mcu_codes.eps>
+File: image/mcu_temp.eps Graphic file (type eps)
+ <image/mcu_temp.eps> [37]
+Underfull \hbox (badness 10000) in paragraph at lines 348--368
+
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 370--385
+
+ []
+
+) (./chapters/tangram.tex [39]
 Chapter 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37
+ [40
 
-] [38] [39]
+] [41] [42]
 File: image/tan/flowchart.pdf Graphic file (type QTm)
  <use  "image/tan/flowchart.pdf" >
 Overfull \hbox (10.65979pt too wide) in paragraph at lines 90--91
@@ -1175,44 +1189,44 @@ Overfull \hbox (10.65979pt too wide) in paragraph at lines 90--91
 
 Underfull \vbox (badness 1112) has occurred while \output is active []
 
- [40]
+ [43]
 Underfull \vbox (badness 6927) has occurred while \output is active []
 
- [41]
+ [44]
 File: image/tan/space.png Graphic file (type QTm)
- <use  "image/tan/space.png" > [42] [43]
+ <use  "image/tan/space.png" > [45] [46]
 File: image/tan/TangramFab-Comment.png Graphic file (type QTm)
  <use  "image/tan/TangramFab-Comment.png" >
 File: image/tan/TangramFab-Initial.png Graphic file (type QTm)
  <use  "image/tan/TangramFab-Initial.png" >
 File: image/tan/TangramFab-Final.png Graphic file (type QTm)
- <use  "image/tan/TangramFab-Final.png" > [44]
+ <use  "image/tan/TangramFab-Final.png" > [47]
 File: image/tan/space1.png Graphic file (type QTm)
- <use  "image/tan/space1.png" > [45] [46]) (./chapters/portfolio.tex [47] [48]
+ <use  "image/tan/space1.png" > [48] [49]) (./chapters/portfolio.tex [50] [51]
 Chapter 5.
 
 Underfull \vbox (badness 1442) has occurred while \output is active []
 
- [49
+ [52
 
 ]
 File: image/teeth.png Graphic file (type QTm)
  <use  "image/teeth.png" >
 Underfull \vbox (badness 6859) has occurred while \output is active []
 
- [50]
+ [53]
 Underfull \vbox (badness 4328) has occurred while \output is active []
 
- [51]
+ [54]
 File: image/teeth_table1.ps Graphic file (type eps)
  <image/teeth_table1.ps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52] [53]
+ [55] [56]
 File: image/teeth_table2.ps Graphic file (type eps)
  <image/teeth_table2.ps>
 File: image/teeth_table3.ps Graphic file (type eps)
- <image/teeth_table3.ps> [54]
+ <image/teeth_table3.ps> [57]
 Overfull \hbox (3.23384pt too wide) in paragraph at lines 91--93
 \EU1/TimesNewRoman(0)/m/n/12 dependent SVM classifier achieved a high F-measure accuracy of 93.8$[]$, whereas a person-
  []
@@ -1220,87 +1234,90 @@ Overfull \hbox (3.23384pt too wide) in paragraph at lines 91--93
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55] [56]
+ [58] [59]
 Overfull \hbox (2.09525pt too wide) in paragraph at lines 98--98
 []\EU1/TimesNewRoman(0)/bx/n/17.28 Sensing Fork: Persuasive Technology to Improve Eat-
  []
 
-[57] [58]
+
+Underfull \vbox (badness 4531) has occurred while \output is active []
+
+ [60]
 File: image/figure01-light.jpg Graphic file (type QTm)
  <use  "image/figure01-light.jpg" >
 File: image/systemzu02-02.png Graphic file (type QTm)
- <use  "image/systemzu02-02.png" > [59] [60]
+ <use  "image/systemzu02-02.png" > [61] [62]
 File: image/denkyoku02-02.png Graphic file (type QTm)
  <use  "image/denkyoku02-02.png" >
 File: image/status02-02.png Graphic file (type QTm)
- <use  "image/status02-02.png" > [61] [62]
+ <use  "image/status02-02.png" >
+Underfull \vbox (badness 6675) has occurred while \output is active []
+
+ [63] [64] [65]
 File: image/HP_app.png Graphic file (type QTm)
  <use  "image/HP_app.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [63]
 Underfull \vbox (badness 3646) has occurred while \output is active []
 
- [64] [65] [66]
-File: image/tables01.pdf Graphic file (type QTm)
- <use  "image/tables01.pdf" >
-File: image/table2.ps Graphic file (type eps)
- <image/table2.ps> [67]
-File: image/recipe01-01.png Graphic file (type QTm)
- <use  "image/recipe01-01.png" >
+ [66]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
+ [67] [68]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [69]
+File: image/tables01.pdf Graphic file (type QTm)
+ <use  "image/tables01.pdf" >
+File: image/table2.ps Graphic file (type eps)
+ <image/table2.ps> [70]
+File: image/recipe01-01.png Graphic file (type QTm)
+ <use  "image/recipe01-01.png" > [71]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70] [71]
-Overfull \hbox (14.94533pt too wide) in paragraph at lines 895--895
+ [72] [73] [74]
+Overfull \hbox (14.94533pt too wide) in paragraph at lines 891--891
 []\EU1/TimesNewRoman(0)/bx/n/17.28 Enabling Daily Self-monitoring to Assist Recovery from
  []
 
-[72]
+[75]
 File: image/ket/concept_photo.eps Graphic file (type eps)
  <image/ket/concept_photo.eps>
 File: image/ket/arch.eps Graphic file (type eps)
  <image/ket/arch.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73] [74]
+ [76] [77]
 File: image/ket/line_pattern.eps Graphic file (type eps)
  <image/ket/line_pattern.eps>
-Overfull \hbox (3.72601pt too wide) in paragraph at lines 942--943
+Overfull \hbox (3.72601pt too wide) in paragraph at lines 938--939
 \EU1/TimesNewRoman(0)/m/n/12 The RehabDiary phone application (1) enables ketamine-dependent patients to self-monitor
  []
 
-[75]
+[78]
 File: image/ket/device_photo.eps Graphic file (type eps)
  <image/ket/device_photo.eps>
 Underfull \vbox (badness 2653) has occurred while \output is active []
 
- [76] [77]
+ [79] [80]
 File: image/ket/all_color.eps Graphic file (type eps)
- <image/ket/all_color.eps> [78]
+ <image/ket/all_color.eps> [81]
 File: image/ket/equivalent_circuit.eps Graphic file (type eps)
  <image/ket/equivalent_circuit.eps>
-Overfull \hbox (4.21576pt too wide) in paragraph at lines 998--999
+Overfull \hbox (4.21576pt too wide) in paragraph at lines 994--995
  [] 
  []
 
-[79]
+[82]
 File: image/ket/saliva_absorb.eps Graphic file (type eps)
  <image/ket/saliva_absorb.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80]
+ [83]
 Underfull \vbox (badness 3919) has occurred while \output is active []
 
- [81]
+ [84]
 File: image/ket/row_by_row.eps Graphic file (type eps)
  <image/ket/row_by_row.eps>
-Overfull \hbox (5.96365pt too wide) in paragraph at lines 1046--1047
+Overfull \hbox (5.96365pt too wide) in paragraph at lines 1042--1043
  [] 
  []
 
@@ -1308,31 +1325,31 @@ File: image/ket/delta.eps Graphic file (type eps)
 <image/ket/delta.eps>
 Underfull \vbox (badness 1231) has occurred while \output is active []
 
- [82]
+ [85]
 Underfull \vbox (badness 3735) has occurred while \output is active []
 
- [83]
-Overfull \hbox (0.39594pt too wide) in paragraph at lines 1078--1081
+ [86]
+Overfull \hbox (0.39594pt too wide) in paragraph at lines 1074--1077
 \EU1/TimesNewRoman(0)/m/n/12 The user interface is used to summarize the patients’ drug use and summarize their progress
  []
 
-[84]
+[87]
 File: image/ket/ket_app.eps Graphic file (type eps)
  <image/ket/ket_app.eps>
-Overfull \hbox (1.60928pt too wide) in paragraph at lines 1086--1087
+Overfull \hbox (1.60928pt too wide) in paragraph at lines 1082--1083
  [] 
  []
 
-[85]
+[88]
 File: image/ket/detection_accuracy.eps Graphic file (type eps)
- <image/ket/detection_accuracy.eps> [86]
-Overfull \hbox (8.18304pt too wide) in paragraph at lines 1107--1109
+ <image/ket/detection_accuracy.eps> [89]
+Overfull \hbox (8.18304pt too wide) in paragraph at lines 1103--1105
 \EU1/TimesNewRoman(0)/m/n/12 This study reports the design and implementation of a cost-effective and cheating-prevention
  []
 
-) (./chapters/conclusion.tex [87]
+) (./chapters/conclusion.tex [90]
 Chapter 6.
-) [88
+) [91
 
 ] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.bbl
 *************************************************
@@ -1349,55 +1366,63 @@ LaTeX Font Warning: Font shape `EU1/pcr/m/n' undefined
 (Font)              using `EU1/lmr/m/n' instead on input line 5.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
 []\EU1/TimesNewRoman(0)/m/n/12 Intel Edison.  $[][][][] [] [] [] [][][] [] [][][][][] [] [][][] [] [][][][][][][] [] [][][] [] [][] [] [][] [] [][][][][][][][][][][][][][][][] []
  []
 
+[92
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
 []\EU1/TimesNewRoman(0)/m/n/12 “Mindfulness” Meditation Can Help Reduce Addic-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
 \EU1/TimesNewRoman(0)/m/n/12 tion Relapse Rates.  $[][][][][] [] [] [] [][][][][] [] [][][] [] [][][][][][][][][][][][][] []
  []
 
-[89
+
+Underfull \hbox (badness 2894) in paragraph at lines 83--85
+[]\EU1/TimesNewRoman(0)/m/n/12 National Health Service (England).  $[][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][][][][][] [] [][][][][] []
+ []
 
 
-]
-Underfull \hbox (badness 2941) in paragraph at lines 87--90
+Underfull \hbox (badness 2941) in paragraph at lines 95--98
 []\EU1/TimesNewRoman(0)/m/n/12 Saliva Drug Test DrugWipe® S.  $[][][][] [] [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][] [] [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 117--120
+Underfull \hbox (badness 2846) in paragraph at lines 125--128
 []\EU1/TimesNewRoman(0)/m/n/12 United Nations Office on Drug and Crime (UNODC). World Drug Report
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 117--120
+Underfull \hbox (badness 1297) in paragraph at lines 125--128
 \EU1/TimesNewRoman(0)/m/n/12 2010.  $[][][][][] [] [] [] [][][] [] [][][][][] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][] [] [][][][] [] [][][][][] [] [][][][] []
  []
 
-[90] [91]
-Underfull \hbox (badness 1048) in paragraph at lines 244--247
+[93] [94] [95]
+Underfull \hbox (badness 1048) in paragraph at lines 256--259
 []\EU1/TimesNewRoman(0)/m/n/12 S. F. electronic service.  Retrieved September 21, 2016 from $[][][][][] [] [] [] [][][] []
  []
 
-[92] [93] [94] [95] [96]) [97] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.aux)
+[96]
+Underfull \vbox (badness 1742) has occurred while \output is active []
+
+ [97] [98] [99]) [100] (/Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19058 strings out of 493638
- 374738 string characters out of 6144793
- 386119 words of memory out of 5000000
- 22238 multiletter control sequences out of 15000+600000
+ 19068 strings out of 493638
+ 374882 string characters out of 6144793
+ 386159 words of memory out of 5000000
+ 22246 multiletter control sequences out of 15000+600000
  7752 words of font info for 59 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  61i,8n,72p,10439b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.pdf (107 pages).
+Output written on /Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.pdf (110 pages).

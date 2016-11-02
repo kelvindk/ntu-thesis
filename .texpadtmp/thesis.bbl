@@ -32,6 +32,10 @@
 {BLOCKS}.
 \newblock \url{http://www.chooseblocks.com/}.
 
+\bibitem{Cabinet_JP}
+{Cabinet Office, Government of Japan}.
+\newblock \url{http://www8.cao.go.jp/syokuiku/index.html}.
+
 \bibitem{ketamine_schedule_III}
 {Commonly Abused Drugs Charts | National Institute on Drug Abuse (NIDA).}
 \newblock
@@ -75,6 +79,10 @@
 {Nascent}.
 \newblock \url{http://www.nascentobjects.com/}.
 
+\bibitem{NHS_ENGLAND}
+{National Health Service (England)}.
+\newblock \url{http://www.nhs.uk/livewell/5ADAY/Pages/5ADAYhome.aspx}.
+
 \bibitem{Processing}
 {Processing}.
 \newblock \url{http://processing.org/}.
@@ -117,6 +125,10 @@ Saliva drug test with salivascan oral fluid drug test including sponge
 {United Nations Office on Drug and Crime (UNODC). World Drug Report 2010.}
 \newblock
   \url{https://www.unodc.org/documents/wdr/WDR_2010/World_Drug_Report_2010_lo-res.pdf}.
+
+\bibitem{US_Agriculture}
+{U.S. Department of Agriculture}.
+\newblock \url{http://www.choosemyplate.gov}.
 
 \bibitem{Vigekwear}
 {Vigekwear}.
@@ -180,10 +192,10 @@ M.~C., K.-B. T., and L.~J.
 \bibitem{Printem:2015}
 V.~P. C and D.~Wigdor.
 \newblock Printem: Instant printed circuit boards with standard office printers
-  \&\#38; inks.
+  and inks.
 \newblock In {\em Proceedings of the 28th Annual ACM Symposium on User
-  Interface Software \&\#38; Technology}, UIST '15, pages 243--251, New York,
-  NY, USA, 2015. ACM.
+  Interface Software and Technology}, UIST '15, pages 243--251, New York, NY,
+  USA, 2015. ACM.
 
 \bibitem{camarillo2013head}
 D.~Camarillo, J.~Mattson, M.~Flynn, S.~Yang, P.~Shull, R.~Shultz, G.~Matheson,
@@ -374,6 +386,14 @@ H.~Lu, J.~Yang, Z.~Liu, N.~D. Lane, T.~Choudhury, and A.~T. Campbell.
 \newblock The jigsaw continuous sensing engine for mobile phone applications.
 \newblock In {\em Proceedings of the 8th ACM Conference on Embedded Networked
   Sensor Systems}, SenSys '10, pages 71--84, New York, NY, USA, 2010. ACM.
+
+\bibitem{Wakey:2017}
+L.-F. L. T.-W. L. W.-C. H. C.-y. C. R. L. K.-Y. C. M.-h.~L. Meng-Ying~Chan,
+  Yi-Hsuan~Lin and Y.-J.~J. Hsu.
+\newblock Wakey: Assisting parent-child communication for better morning
+  routines.
+\newblock In {\em Proceedings of the 20th ACM Conference on Computer-Supported
+  Cooperative Work and Social Computing}, CSCW '17. ACM, 2017.
 
 \bibitem{Mokaya:2015:MVB:2750858.2804258}
 F.~Mokaya, R.~Lucas, H.~Y. Noh, and P.~Zhang.

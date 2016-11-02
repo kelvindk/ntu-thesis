@@ -10,31 +10,33 @@
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Recharging patch.}}{30}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Four steps for applying bandages.}}{31}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces The steps of configuration for data visualization. (a) System off. (b) Assembly: stacking patches and casing. (c) display on interaction patch. (d) display on mobile phone.}}{33}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Representations for data visualization: digit, pattern, icon.}}{35}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Representations of data visualization on wearable display: digit, pattern, icon.}}{35}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Extract the initialization and loop sections from conventional structure of microcontroller codes}}{37}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces An example of BioScope device APIs for reading temperature sensor and transmitting sensory data through Bluetooth radio}}{38}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Flowchart of the Tangram.}}{41}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces (a) Tans of TangramScope. (b) Stacking mechanism.}}{42}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Snapshot of TangramFab.}}{44}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Tans imported into TangramFab from TangramScope.}}{44}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Situate Tans to desired positions and draw the dimension.}}{44}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces (a) The toy doll embedded electronic device. (b) The customized PCB.}}{45}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Flowchart of the Tangram.}}{44}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces (a) Tans of TangramScope. (b) Stacking mechanism.}}{45}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Snapshot of TangramFab.}}{47}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Tans imported into TangramFab from TangramScope.}}{47}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Situate Tans to desired positions and draw the dimension.}}{47}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces (a) The toy doll embedded electronic device. (b) The customized PCB.}}{48}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces The breakout board with (b) tri-axial accelerometer and (a)(c) sensor embedded denture.}}{50}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Overview of the Sensing Fork and Hungry Panda game application.}}{59}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces System configuration. Left: The Sensing Fork prototype. Right: The software on the smartphone.}}{60}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Electrodes and resistance sensing schematic. Marker 1 and 2 represent two fork's tines. Marker 3 is the fork's grip.}}{61}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces State transition diagram of eating actions.}}{61}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces The story and flow of Hungry Panda game application.}}{64}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces The examples of food items in three cuisines.}}{69}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Proposed system for daily self-monitoring of drug use, comprising saliva screening device and mobile smartphone.}}{73}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces The system architecture.}}{74}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces The reaction zone of a strip and its potential line patterns. ``C'' (``T'') means the control (test) line of the pattern.}}{75}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Electrical components on the circuit boards and connections between boards.}}{76}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Image of reaction zone illuminated using monochromatic LEDs: (a) green, (b) blue, (c) red, and (d) white. The RGB readings across the middle row of pixels in the image are plotted as a line chart below each image.}}{78}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Auxiliary board with test strip and three equivalent circuits. When the strip is dry, the equivalent circuit (b). Saliva samples are absorbed by the front cotton wick resulting in equivalent circuit (c). When the back cotton wick is also soaked, the equivalent circuit is in (d).}}{79}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Voltage samples of determining saliva test progress.}}{81}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces The row-by-row intensity analysis while validating the control line and classifying the test line.}}{83}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Differences among control region, test region, and flat area in the $i$th row.}}{84}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces User interface of smartphone application: (a) saliva screening, (b) screening results, (c) event logging and (4) ranking of risky scenario.}}{85}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces F-measure accuracy of three learning classification algorithms (SVM, RF, and LR).}}{86}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The breakout board with (b) tri-axial accelerometer and (a)(c) sensor embedded denture.}}{53}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Overview of the Sensing Fork and Hungry Panda game application.}}{62}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces System configuration. Left: The Sensing Fork prototype. Right: The software on the smartphone.}}{63}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Electrodes and resistance sensing schematic. Marker 1 and 2 represent two fork's tines. Marker 3 is the fork's grip.}}{64}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces State transition diagram of eating actions.}}{64}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The story and flow of Hungry Panda game application.}}{66}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The examples of food items in three cuisines.}}{72}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Proposed system for daily self-monitoring of drug use, comprising saliva screening device and mobile smartphone.}}{76}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces The system architecture.}}{77}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces The reaction zone of a strip and its potential line patterns. ``C'' (``T'') means the control (test) line of the pattern.}}{78}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Electrical components on the circuit boards and connections between boards.}}{79}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Image of reaction zone illuminated using monochromatic LEDs: (a) green, (b) blue, (c) red, and (d) white. The RGB readings across the middle row of pixels in the image are plotted as a line chart below each image.}}{81}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Auxiliary board with test strip and three equivalent circuits. When the strip is dry, the equivalent circuit (b). Saliva samples are absorbed by the front cotton wick resulting in equivalent circuit (c). When the back cotton wick is also soaked, the equivalent circuit is in (d).}}{82}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Voltage samples of determining saliva test progress.}}{84}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces The row-by-row intensity analysis while validating the control line and classifying the test line.}}{86}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Differences among control region, test region, and flat area in the $i$th row.}}{87}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces User interface of smartphone application: (a) saliva screening, (b) screening results, (c) event logging and (4) ranking of risky scenario.}}{88}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces F-measure accuracy of three learning classification algorithms (SVM, RF, and LR).}}{89}
 \addvspace {10\p@ }

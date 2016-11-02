@@ -49,57 +49,62 @@
 \contentsline {subsection}{\numberline {3.3.2}Data Processing and Representation}{35}
 \contentsline {subsection}{\numberline {3.3.3}User Interface on Mobile Device}{36}
 \contentsline {section}{\numberline {3.4}Platform APIs}{36}
-\contentsline {chapter}{\numberline {4}Tangram: Simplify PCB Design Process with Modularization}{37}
-\contentsline {section}{\numberline {4.1}Design considerations}{38}
-\contentsline {subsection}{\numberline {4.1.1}Prototyping with off-the-shelf developing toolkit}{39}
-\contentsline {subsubsection}{Robustness}{39}
-\contentsline {subsubsection}{Form factor}{39}
-\contentsline {subsubsection}{Power consumption}{39}
-\contentsline {subsection}{\numberline {4.1.2}Fabricate customized PCB}{40}
-\contentsline {subsubsection}{Difficulties in implementations}{40}
-\contentsline {subsubsection}{Cost}{40}
-\contentsline {section}{\numberline {4.2}System design}{41}
-\contentsline {subsection}{\numberline {4.2.1}TangramScope}{42}
-\contentsline {subsection}{\numberline {4.2.2}TangramFab}{43}
-\contentsline {subsubsection}{Sample scenario}{44}
-\contentsline {section}{\numberline {4.3}Explorative study}{45}
-\contentsline {section}{\numberline {4.4}Discussion}{46}
-\contentsline {subsection}{\numberline {4.4.1}Flexibility and Difficulty in PCB Design}{46}
-\contentsline {subsection}{\numberline {4.4.2}Developing a Well-provisioned Library}{47}
-\contentsline {subsection}{\numberline {4.4.3}Limitation and Future Work}{47}
-\contentsline {section}{\numberline {4.5}Summary}{47}
-\contentsline {chapter}{\numberline {5}Portfolio}{49}
-\contentsline {section}{\numberline {5.1}Sensor-Embedded Teeth for Oral Activity Recognition}{49}
-\contentsline {subsection}{\numberline {5.1.1}System Overview}{50}
-\contentsline {subsubsection}{Oral Sensory Unit}{51}
-\contentsline {subsection}{\numberline {5.1.2}Experimental Evaluation}{53}
-\contentsline {subsubsection}{Experimental Procedure}{53}
-\contentsline {subsubsection}{Results}{53}
-\contentsline {subsection}{\numberline {5.1.3}Discussion}{54}
-\contentsline {subsection}{\numberline {5.1.4}Summary}{56}
-\contentsline {section}{\numberline {5.2}Sensing Fork: Persuasive Technology to Improve Eating Behavior using a Sensor-Embedded Fork}{57}
-\contentsline {subsection}{\numberline {5.2.1}System Overview}{58}
-\contentsline {subsection}{\numberline {5.2.2}Prototype Design: Sensing Fork}{59}
-\contentsline {subsubsection}{Components of the Sensing Fork}{59}
-\contentsline {subsubsection}{Detecting Eating Actions}{61}
-\contentsline {subsubsection}{Classifying Food Types}{62}
-\contentsline {subsection}{\numberline {5.2.3}Persuasive Game Application: Hungry Panda}{65}
-\contentsline {subsubsection}{Picture Book for Dietary Education}{65}
-\contentsline {subsubsection}{Interactive and Persuasive Game Application}{66}
-\contentsline {subsection}{\numberline {5.2.4}Experimental Evaluation}{67}
-\contentsline {subsubsection}{Results for Detecting Eating Actions}{67}
-\contentsline {subsubsection}{Results of Classifying Food Types}{69}
-\contentsline {subsection}{\numberline {5.2.5}Limitations}{70}
-\contentsline {subsection}{\numberline {5.2.6}Summary}{71}
-\contentsline {section}{\numberline {5.3}Enabling Daily Self-monitoring to Assist Recovery from Drug Addiction through a Phone-based Support System}{72}
-\contentsline {subsection}{\numberline {5.3.1}System Overview}{74}
-\contentsline {subsubsection}{Saliva-screening Device}{74}
-\contentsline {subsubsection}{Phone Application}{75}
-\contentsline {subsubsection}{Backend Server}{76}
-\contentsline {subsection}{\numberline {5.3.2}Saliva Screening Design}{76}
-\contentsline {subsubsection}{Portable Saliva-screening Device}{77}
-\contentsline {subsection}{\numberline {5.3.3}User Interface}{84}
-\contentsline {subsubsection}{Classification Accuracy in the Recognition of Line Patterns}{85}
-\contentsline {subsection}{\numberline {5.3.4}Summary}{87}
-\contentsline {chapter}{\numberline {6}Conclusion}{88}
-\contentsline {chapter}{Bibliography}{89}
+\contentsline {subsection}{\numberline {3.4.1}Device APIs}{37}
+\contentsline {subsubsection}{System}{38}
+\contentsline {subsubsection}{Sensor}{39}
+\contentsline {subsection}{\numberline {3.4.2}Phone APIs}{39}
+\contentsline {section}{\numberline {3.5}Summary}{39}
+\contentsline {chapter}{\numberline {4}Tangram: Simplify PCB Design Process with Modularization}{40}
+\contentsline {section}{\numberline {4.1}Design considerations}{41}
+\contentsline {subsection}{\numberline {4.1.1}Prototyping with off-the-shelf developing toolkit}{42}
+\contentsline {subsubsection}{Robustness}{42}
+\contentsline {subsubsection}{Form factor}{42}
+\contentsline {subsubsection}{Power consumption}{42}
+\contentsline {subsection}{\numberline {4.1.2}Fabricate customized PCB}{43}
+\contentsline {subsubsection}{Difficulties in implementations}{43}
+\contentsline {subsubsection}{Cost}{43}
+\contentsline {section}{\numberline {4.2}System design}{44}
+\contentsline {subsection}{\numberline {4.2.1}TangramScope}{45}
+\contentsline {subsection}{\numberline {4.2.2}TangramFab}{46}
+\contentsline {subsubsection}{Sample scenario}{47}
+\contentsline {section}{\numberline {4.3}Explorative study}{48}
+\contentsline {section}{\numberline {4.4}Discussion}{49}
+\contentsline {subsection}{\numberline {4.4.1}Flexibility and Difficulty in PCB Design}{49}
+\contentsline {subsection}{\numberline {4.4.2}Developing a Well-provisioned Library}{50}
+\contentsline {subsection}{\numberline {4.4.3}Limitation and Future Work}{50}
+\contentsline {section}{\numberline {4.5}Summary}{50}
+\contentsline {chapter}{\numberline {5}Portfolio}{52}
+\contentsline {section}{\numberline {5.1}Sensor-Embedded Teeth for Oral Activity Recognition}{52}
+\contentsline {subsection}{\numberline {5.1.1}System Overview}{53}
+\contentsline {subsubsection}{Oral Sensory Unit}{54}
+\contentsline {subsection}{\numberline {5.1.2}Experimental Evaluation}{56}
+\contentsline {subsubsection}{Experimental Procedure}{56}
+\contentsline {subsubsection}{Results}{56}
+\contentsline {subsection}{\numberline {5.1.3}Discussion}{57}
+\contentsline {subsection}{\numberline {5.1.4}Summary}{59}
+\contentsline {section}{\numberline {5.2}Sensing Fork: Persuasive Technology to Improve Eating Behavior using a Sensor-Embedded Fork}{60}
+\contentsline {subsection}{\numberline {5.2.1}System Overview}{61}
+\contentsline {subsection}{\numberline {5.2.2}Prototype Design: Sensing Fork}{62}
+\contentsline {subsubsection}{Components of the Sensing Fork}{62}
+\contentsline {subsubsection}{Detecting Eating Actions}{64}
+\contentsline {subsubsection}{Classifying Food Types}{65}
+\contentsline {subsection}{\numberline {5.2.3}Persuasive Game Application: Hungry Panda}{68}
+\contentsline {subsubsection}{Picture Book for Dietary Education}{68}
+\contentsline {subsubsection}{Interactive and Persuasive Game Application}{69}
+\contentsline {subsection}{\numberline {5.2.4}Experimental Evaluation}{70}
+\contentsline {subsubsection}{Results for Detecting Eating Actions}{70}
+\contentsline {subsubsection}{Results of Classifying Food Types}{71}
+\contentsline {subsection}{\numberline {5.2.5}Limitations}{73}
+\contentsline {subsection}{\numberline {5.2.6}Summary}{73}
+\contentsline {section}{\numberline {5.3}Enabling Daily Self-monitoring to Assist Recovery from Drug Addiction through a Phone-based Support System}{75}
+\contentsline {subsection}{\numberline {5.3.1}System Overview}{77}
+\contentsline {subsubsection}{Saliva-screening Device}{77}
+\contentsline {subsubsection}{Phone Application}{78}
+\contentsline {subsubsection}{Backend Server}{79}
+\contentsline {subsection}{\numberline {5.3.2}Saliva Screening Design}{79}
+\contentsline {subsubsection}{Portable Saliva-screening Device}{80}
+\contentsline {subsection}{\numberline {5.3.3}User Interface}{87}
+\contentsline {subsubsection}{Classification Accuracy in the Recognition of Line Patterns}{88}
+\contentsline {subsection}{\numberline {5.3.4}Summary}{90}
+\contentsline {chapter}{\numberline {6}Conclusion}{91}
+\contentsline {chapter}{Bibliography}{92}

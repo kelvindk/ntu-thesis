@@ -3,291 +3,291 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/kelvindk/Dropbox/PhdThesis/ntu-thesis/.texpadtmp/thesis.aux
 The style file: abbrv.bst
 Database file #1: ../thesis.bib
-I was expecting an "="---line 208 of file ../thesis.bib
+I was expecting an "="---line 222 of file ../thesis.bib
  :  
  :  numpages = {7},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 554 of file ../thesis.bib
+You're missing a field name---line 568 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1136-6},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 588 of file ../thesis.bib
+You're missing a field name---line 602 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1935701.1935703},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 605 of file ../thesis.bib
+You're missing a field name---line 619 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1291233.1291357},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 622 of file ../thesis.bib
+You're missing a field name---line 636 of file ../thesis.bib
  :   
  :   %isbn = {978-1-60558-431-7},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 637 of file ../thesis.bib
+You're missing a field name---line 651 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2071423.2071449},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 654 of file ../thesis.bib
+You're missing a field name---line 668 of file ../thesis.bib
  : 
  : %URL="http://ci.nii.ac.jp/naid/110006223862/en/",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 668 of file ../thesis.bib
+You're missing a field name---line 682 of file ../thesis.bib
  : 
  : %URL="http://ci.nii.ac.jp/naid/110008507992/en/",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 683 of file ../thesis.bib
+You're missing a field name---line 697 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/634067.634180},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 701 of file ../thesis.bib
+You're missing a field name---line 715 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2207676.2207747},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 715 of file ../thesis.bib
+You're missing a field name---line 729 of file ../thesis.bib
  : 
  : % isbn = {978-1-4503-0426-9},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 736 of file ../thesis.bib
+You're missing a field name---line 750 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1016-1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 756 of file ../thesis.bib
+You're missing a field name---line 770 of file ../thesis.bib
  : 
  : % url = {http://dx.doi.org/10.1007/11748625_23},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 774 of file ../thesis.bib
+You're missing a field name---line 788 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1579114.1579161},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 790 of file ../thesis.bib
+You're missing a field name---line 804 of file ../thesis.bib
  :  
  :  %isbn = {978-3-540-74852-6},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 809 of file ../thesis.bib
+You're missing a field name---line 823 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1836821.1836839},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 826 of file ../thesis.bib
+You're missing a field name---line 840 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1864349.1864373},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 842 of file ../thesis.bib
+You're missing a field name---line 856 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-011-1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 918 of file ../thesis.bib
+You're missing a field name---line 932 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2208516.2208603},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 936 of file ../thesis.bib
+You're missing a field name---line 950 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2208276.2208299},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 954 of file ../thesis.bib
+You're missing a field name---line 968 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1640233.1640367},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 971 of file ../thesis.bib
+You're missing a field name---line 985 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1979482.1979575},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 989 of file ../thesis.bib
+You're missing a field name---line 1003 of file ../thesis.bib
  : 
  : % url = {http://dl.acm.org/citation.cfm?id=2021975.2021993},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1006 of file ../thesis.bib
+You're missing a field name---line 1020 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1394445.1394452},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1024 of file ../thesis.bib
+You're missing a field name---line 1038 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2370216.2370246},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1042 of file ../thesis.bib
+You're missing a field name---line 1056 of file ../thesis.bib
  : 
  : % url = {http://dl.acm.org/citation.cfm?id=647985.743864},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1058 of file ../thesis.bib
+You're missing a field name---line 1072 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1640233.1640367},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1076 of file ../thesis.bib
+You're missing a field name---line 1090 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1978942.1978957},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1094 of file ../thesis.bib
+You're missing a field name---line 1108 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/1842993.1843016},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1131 of file ../thesis.bib
+You're missing a field name---line 1145 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1952-2},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1160 of file ../thesis.bib
+You're missing a field name---line 1174 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1899-0},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1178 of file ../thesis.bib
+You're missing a field name---line 1192 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-011-1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1197 of file ../thesis.bib
+You're missing a field name---line 1211 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-395-2},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1216 of file ../thesis.bib
+You're missing a field name---line 1230 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-2215-7},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1234 of file ../thesis.bib
+You're missing a field name---line 1248 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1952-2},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1255 of file ../thesis.bib
+You're missing a field name---line 1269 of file ../thesis.bib
  : 
  : %doi={10.1109/MPRV.2012.40},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1269 of file ../thesis.bib
+You're missing a field name---line 1283 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2317956.2317964},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1287 of file ../thesis.bib
+You're missing a field name---line 1301 of file ../thesis.bib
  : 
  : % url = {http://doi.acm.org/10.1145/2207676.2207693},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1303 of file ../thesis.bib
+You're missing a field name---line 1317 of file ../thesis.bib
  :  
  :  %issue_date = {December 1 - December 31, 2002},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1316 of file ../thesis.bib
+You're missing a field name---line 1330 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 11th International Conference on Human-Computer Interaction with Mobile Devices and Services},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1336 of file ../thesis.bib
+You're missing a field name---line 1350 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 22nd Annual ACM Symposium on User Interface Software and Technology},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1355 of file ../thesis.bib
+You're missing a field name---line 1369 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 15th International Conference on Intelligent User Interfaces},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1374 of file ../thesis.bib
+You're missing a field name---line 1388 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1393 of file ../thesis.bib
+You're missing a field name---line 1407 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 26th Annual ACM Symposium on User Interface Software and Technology},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1412 of file ../thesis.bib
+You're missing a field name---line 1426 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the Adjunct Publication of the 26th Annual ACM Symposium on User Interface Software and Technology},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1431 of file ../thesis.bib
+You're missing a field name---line 1445 of file ../thesis.bib
  :  
  :  %booktitle = {Proceedings of the 2013 ACM International Conference on Interactive Tabletops and Surfaces},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1452 of file ../thesis.bib
+You're missing a field name---line 1466 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1682-8},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1472 of file ../thesis.bib
+You're missing a field name---line 1486 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-2268-3},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1490 of file ../thesis.bib
+You're missing a field name---line 1504 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-2268-3},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1508 of file ../thesis.bib
+You're missing a field name---line 1522 of file ../thesis.bib
  :  
  :  %isbn = {3-540-39634-9, 978-3-540-39634-5},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1525 of file ../thesis.bib
+You're missing a field name---line 1539 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-843-8},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1541 of file ../thesis.bib
+I was expecting a `,' or a `}'---line 1555 of file ../thesis.bib
  : 
  : year = {2004},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1564 of file ../thesis.bib
+Repeated entry---line 1578 of file ../thesis.bib
  : %@book{goshoku
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1579 of file ../thesis.bib
+You're missing a field name---line 1593 of file ../thesis.bib
  :  
  :  %isbn = {978-1-4503-1580-7},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1597 of file ../thesis.bib
+You're missing a field name---line 1611 of file ../thesis.bib
  :  
  :  %isbn = {978-1-60558-011-1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1878 of file ../thesis.bib
+I was expecting a `,' or a `}'---line 1892 of file ../thesis.bib
  :  
  :  primaryClass = "physics.med-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1886 of file ../thesis.bib
+I was expecting a `,' or a `}'---line 1900 of file ../thesis.bib
  : 
  : TITLE = {Nutrition research: an investment in the nation&#039;s health.},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2199 of file ../thesis.bib
+Repeated entry---line 2213 of file ../thesis.bib
  : @misc{weka
  :            ,
 I'm skipping whatever remains of this entry
@@ -314,6 +314,23 @@ Warning--to sort, need author or key in Nascent
 Warning--to sort, need author or key in BLOCKS
 Warning--to sort, need author or key in Vigekwear
 Warning--to sort, need author or key in AltiumDesigner
+Name 1 in "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" has a comma at the end for entry Wakey:2017
+while executing---line 1049 of file abbrv.bst
+Too many commas in name 1 of "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" for entry Wakey:2017
+while executing---line 1049 of file abbrv.bst
+Too many commas in name 1 of "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" for entry Wakey:2017
+while executing---line 1049 of file abbrv.bst
+Too many commas in name 1 of "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" for entry Wakey:2017
+while executing---line 1049 of file abbrv.bst
+Too many commas in name 1 of "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" for entry Wakey:2017
+while executing---line 1049 of file abbrv.bst
+Too many commas in name 1 of "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" for entry Wakey:2017
+while executing---line 1049 of file abbrv.bst
+Too many commas in name 1 of "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" for entry Wakey:2017
+while executing---line 1049 of file abbrv.bst
+Warning--to sort, need author or key in NHS_ENGLAND
+Warning--to sort, need author or key in US_Agriculture
+Warning--to sort, need author or key in Cabinet_JP
 Warning--to sort, need author or key in addiction_relapse_rates
 Warning--to sort, need author or key in MobileDrugTesting
 Warning--to sort, need author or key in drugfingerprint
@@ -325,47 +342,61 @@ Warning--to sort, need author or key in saliva_test_cassette
 Warning--to sort, need author or key in springfinger
 Warning--empty year in Broadbent:2004
 Warning--empty journal in gartner2016wearable
+Name 1 in "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" has a comma at the end for entry Wakey:2017
+while executing---line 1090 of file abbrv.bst
+Too many commas in name 1 of "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" for entry Wakey:2017
+while executing---line 1090 of file abbrv.bst
+Too many commas in name 1 of "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" for entry Wakey:2017
+while executing---line 1090 of file abbrv.bst
+Too many commas in name 1 of "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" for entry Wakey:2017
+while executing---line 1090 of file abbrv.bst
+Too many commas in name 1 of "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" for entry Wakey:2017
+while executing---line 1090 of file abbrv.bst
+Too many commas in name 1 of "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" for entry Wakey:2017
+while executing---line 1090 of file abbrv.bst
+Too many commas in name 1 of "Meng-Ying Chan, Yi-Hsuan Lin, Long-Fei Lin, Ting-Wei Lin, Wei-Che Hsu, Chia-yu Chang, Rui Liu, Ko-Yu Chang, Min-hua Lin, and Yung-J Jane Hsu" for entry Wakey:2017
+while executing---line 1090 of file abbrv.bst
 Warning--empty booktitle in Muller:2002:PDT:772072.772138
 Warning--can't use both volume and number fields in walker2002high
-You've used 86 entries,
+You've used 90 entries,
             2118 wiz_defined-function locations,
-            964 strings with 17961 characters,
-and the built_in function-call counts, 27206 in all, are:
-= -- 2706
-> -- 1113
+            983 strings with 18608 characters,
+and the built_in function-call counts, 27973 in all, are:
+= -- 2780
+> -- 1129
 < -- 28
-+ -- 467
-- -- 374
-* -- 1692
-:= -- 4033
-add.period$ -- 244
-call.type$ -- 86
-change.case$ -- 432
++ -- 475
+- -- 378
+* -- 1722
+:= -- 4133
+add.period$ -- 254
+call.type$ -- 90
+change.case$ -- 446
 chr.to.int$ -- 0
-cite$ -- 122
-duplicate$ -- 1109
-empty$ -- 2398
-format.name$ -- 374
-if$ -- 6075
+cite$ -- 129
+duplicate$ -- 1144
+empty$ -- 2495
+format.name$ -- 378
+if$ -- 6260
 int.to.chr$ -- 0
-int.to.str$ -- 86
-missing$ -- 58
-newline$ -- 397
-num.names$ -- 109
-pop$ -- 672
+int.to.str$ -- 90
+missing$ -- 59
+newline$ -- 414
+num.names$ -- 111
+pop$ -- 702
 preamble$ -- 1
-purify$ -- 359
+purify$ -- 369
 quote$ -- 0
-skip$ -- 925
+skip$ -- 957
 stack$ -- 0
-substring$ -- 1489
-swap$ -- 319
+substring$ -- 1509
+swap$ -- 324
 text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 326
-warning$ -- 36
-while$ -- 201
-width$ -- 88
-write$ -- 859
-(There were 58 error messages)
+type$ -- 342
+warning$ -- 39
+while$ -- 203
+width$ -- 92
+write$ -- 892
+(There were 72 error messages)

@@ -105,7 +105,7 @@ The system should be efficient and simple to use, even for healthcare workers wi
 
 The system should be able to analyze trends in data that are collected continually over durations ranging from several hours to several days. Healthcare workers can use this long-term data to review and reassess the physical state of patients and identify potential health complications. To continually collect data within a given period, (e.g., half of a day), a fully charged battery should contain sufficient energy to power the sensing device and the system should be able to enable power saving mechanism to prolong the battery life.
 
-To create a flexible and extensible system, we designed a device with two distinct types of module (Figure \ref{bandage_stacking}): (1) the basic bandage platform and (2) sensor patches. The bandage-like platform resembles an adhesive bandage. We drew a 3D model of the platform and then printed it using a 3D printer and elastic filaments. Figure \ref{bandage_stacking}(a) depicts the platform, in which a hollow space is reserved to encase the customized sensing patches. To provide processing and communication capabilities, we designed a customized circuit board, called the main board, that could be mounted in the hollow space. The main board and the stacked sensor patches are powered by a 130-mAh Li-ion battery situated in the upper layer of the platform. On the main board, a Microchip PIC32MX150 microcontroller receives data from the sensor patches through board-to-board connectors, and then relays the processed data to the monitoring screen through a Texas Instruments CC2451 Bluetooth module. 
+To create a flexible and extensible system, we designed a device with two distinct types of module (Figure \ref{bandage_stacking}): (1) the basic bandage platform and (2) sensor patches. The bandage-like platform resembles an adhesive bandage. We drew a 3D model of the platform and then printed it using a 3D printer and elastic filaments. Figure \ref{bandage_stacking}(a) depicts the platform, in which a hollow space is reserved to encase the customized sensing patches. To provide processing and communication capabilities, we designed a customized circuit board, called the main board, that could be mounted in the hollow space. The main board and the stacked sensor patches are powered by a 130-mAh Li-ion battery situated in the upper layer of the platform. On the main board, a Microchip PIC32MX150 microcontroller receives data from the sensor patches through board-to-board connectors, and then relays the processed data to the monitoring screen through a Texas Instruments CC2451 microcontroller with Bluetooth radio. 
 
 \begin{figure}
 \centering
@@ -261,25 +261,25 @@ When the interaction patch is detected on the I2C bus, the system will run the c
 Users can switch and control the displayed sensory data through the touchless gesture sensor on the interaction patch.
 The system also allows the device to be further configured and accessed through the user interface on mobile phone as well.
 
+\begin{figure}
+\centering
+\includegraphics[width=14cm]{image/fig_represent.eps}
+\caption{Representations of data visualization on wearable display: digit, pattern, icon.}
+\label{fig_represent}
+\end{figure}
 
 \subsection{Data Processing and Representation}
 Considering application need, wireless bandwidth and power efficiency, the sensory data should be processed in different ways.
-For example, the device transmits raw data of ECG to mobile phone that requires a sampling rate of 200 Hz (400 bytes per second). 
+For example, the device transmits raw data of ECG to mobile phone for further computation that requires a sampling rate of 200 Hz (400 bytes per second). 
 Such high data rate will consume a lot of power for data transmission.
-If the application needs heart rate data rather than the raw data of ECG, the device can only detect the peak of the raw data and than transmit heart rate data with sampling rate of 1 Hz (1 byte).
+If the application needs heart rate data rather than the raw data of ECG, the device can determine every single peak of the raw data for computing average heart rate and than transmit data with sampling rate of 1 Hz (1 byte).
 Thus, the overall power consumption can be significant reduced by processing data using the microcontroller.
 However, the microcontroller may not be able to compute high complexity work, e.g., activity recognition with motion data.
 For this case, developers have to adopt higher performance processor or transit raw data to mobile phone for processing.
 
 The data can be illustrated in different representations for visualization depending on users' needs.
-For example, heart rate data can be represented in digit, pattern and icon (Figure \ref{fig_represent}).
+For example, displaying heart rate data with interaction patch can be different representations: (1) digit: beats per minute, (2) pattern: raw data and (3) icon: blink with beat (Figure \ref{fig_represent}).
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=14cm]{image/fig_represent.eps}
-\caption{Representations for data visualization: digit, pattern, icon.}
-\label{fig_represent}
-\end{figure}
 
 \subsection{User Interface on Mobile Device}
 The mobile device is versatile and pervasive in our daily life.
@@ -307,11 +307,88 @@ User can export these log data to PC for further analysis.
 \newline
 By choosing a function in the list, the data is visualized on the screen of the mobile phone. User can further config the data and its representations (Figure ?(?)).
 
-%\subsection{Data Representation}
-
 
 \section{Platform APIs}
+In previous section, we introduced the basic data visualization and collection on BioScope platform that enables plug-and-play stacking mechanism and easy-to-use interface.
+In addition to visualizing and collecting data, advanced developers may need to further program the system for building their own application.
+We provides device APIs and phone APIs to facilitate building application on BioScope platform.
+The device APIs allow developers to simply access the sensors and Bluetooth radio on BioScope device and phone APIs to retrieve sensory data and configure device on the smart phone. 
+
+\begin{figure}
+\centering
+\includegraphics[width=14cm]{image/mcu_codes.eps}
+\caption{Extract the initialization and loop sections from conventional structure of microcontroller codes}
+\label{fig_mcu_codes}
+\end{figure}
+
+\subsection{Device APIs}
+The BiScope system adopts a Texas Instruments CC2451 microcontroller as the core of the wearable device.
+However, the software developing environment of microcontroller may be too complicated for the users.
+To facilitate the access of components on BioScope platform, we encapsulates the detail codes to the APIs based on the software stack provided by Texas Instruments.
+As well as the prototyping platforms in the market, we extract the initialization and loop sections from conventional structure of microcontroller codes (Figure \ref{fig_mcu_codes}).
+Thus, developers only need to handle initialization and periodical routine and  callback events.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=10cm]{image/mcu_temp.eps}
+\caption{An example of BioScope device APIs for reading temperature sensor and transmitting sensory data through Bluetooth radio}
+\label{fig_mcu_temp}
+\end{figure}
+
+Figure \ref{fig_mcu_temp} shows an example for reading temperature sensor and transmitting sensory data through Bluetooth radio.
+In \textit{BioScope\_init} function, developers only need to declare the struct variables of Bluetooth component and temperature sensor. And the configuration of the loop interval must be set up in the initialization section for power sensing requirement.
+Then the \textit{BioScope\_loop} function runs sensory reading and radio transmission periodically with the specific interval.
+
+The provided APIs are summarized as follows.
+\subsubsection{System}
+\textit{uint16\_t* getPatchList()}: Get the list of attached patches on the device.
+\vspace{10pt}
+\newline
+\textit{void setLoopInterval(uint16\_t interval)}: Set the interval(ms) of the loop.
+\vspace{10pt}
+\newline
+\textit{void setLoopIntervalSec(uint16\_t interval)}: Set the interval(sec) of the loop.
+\vspace{10pt}
+\newline
+\textit{void delayMS(uint16\_t ms)}: Delay for the number of millisecond.
+\vspace{10pt}
+\newline
+\textit{void delayUS(uint16\_t us)}: Delay for the number of microsecond.
+\vspace{10pt}
+\newline
+\textit{void enablePowerSaving()}: Enable power saving. If idle, the system will turn to low-power mode until next interrupt occurs.
+\vspace{10pt}
+\newline
+\textit{void disablePowerSaving()}: Disable power saving. The processor stays in fastest frequency and all peripheral components are enabled as well.
+\newline
+
+\subsubsection{Sensor}
+\textit{uint16\_t readTemp()}: Read temperature data from thermal patch.
+\vspace{10pt}
+\newline
+\textit{uint16\_t readHeartRate()}: Read heart rate from Biopotential sensor.
+\vspace{10pt}
+\newline
+\textit{uint16\_t* readAccelerometer()}: Read 3-axis accelerometer data from mobility sensor.
+\vspace{10pt}
+\newline
+\textit{uint16\_t* readGyro()}: Read 3-axis gyro data from mobility sensor.
+\vspace{10pt}
+\newline
+\textit{uint16\_t* readMagnetic()}: Read 3-axis magnetic data from mobility sensor.
+\vspace{10pt}
+\newline
 
 
+
+\subsection{Phone APIs}
+
+
+\section{Summary}
+In this chapter, we introduced BioScope, a flexible and extensible wearable platform designed to facilitate rapidly prototyping of the design process.
+Users can choose the needed components to build a customized device for their application.
+The system provides visualization of sensory data that users can simply access various primitive representations of sensory data.
+The platform APIs allows advanced users to program the system to meet their requirement.
+Users can therefore easily create a high-fidelity prototype for evaluating and testing required functions in their design.
 
 \let\cleardoublepage\clearpage
