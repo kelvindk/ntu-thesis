@@ -230,7 +230,7 @@ In order to simplify the usage of the system for non-engineering background user
 
 \begin{figure}
 \centering
-\includegraphics[width=14cm]{image/fig_config.ps}
+\includegraphics[width=15cm]{image/fig_config.ps}
 \caption{The steps of configuration for data visualization. (a) System off. (b) Assembly: stacking patches and casing. (c) display on interaction patch. (d) display on mobile phone.}
 \label{fig_config}
 \end{figure}
@@ -316,13 +316,13 @@ The device APIs allow developers to simply access the sensors and Bluetooth radi
 
 \begin{figure}
 \centering
-\includegraphics[width=14cm]{image/mcu_codes.eps}
+\includegraphics[width=12cm]{image/mcu_codes.eps}
 \caption{Extract the initialization and loop sections from conventional structure of microcontroller codes}
 \label{fig_mcu_codes}
 \end{figure}
 
 \subsection{Device APIs}
-The BiScope system adopts a Texas Instruments CC2451 microcontroller as the core of the wearable device.
+The BioScope system adopts a Texas Instruments CC2451 microcontroller as the core of the wearable device.
 However, the software developing environment of microcontroller may be too complicated for the users.
 To facilitate the access of components on BioScope platform, we encapsulates the detail codes to the APIs based on the software stack provided by Texas Instruments.
 As well as the prototyping platforms in the market, we extract the initialization and loop sections from conventional structure of microcontroller codes (Figure \ref{fig_mcu_codes}).
@@ -330,16 +330,16 @@ Thus, developers only need to handle initialization and periodical routine and  
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=10cm]{image/mcu_temp.eps}
+\includegraphics[width=11cm]{image/mcu_temp.eps}
 \caption{An example of BioScope device APIs for reading temperature sensor and transmitting sensory data through Bluetooth radio}
 \label{fig_mcu_temp}
 \end{figure}
 
-Figure \ref{fig_mcu_temp} shows an example for reading temperature sensor and transmitting sensory data through Bluetooth radio.
+Figure \ref{fig_mcu_temp} shows an example for reading data from temperature sensor and transmitting sensory data through Bluetooth radio.
 In \textit{BioScope\_init} function, developers only need to declare the struct variables of Bluetooth component and temperature sensor. And the configuration of the loop interval must be set up in the initialization section for power sensing requirement.
 Then the \textit{BioScope\_loop} function runs sensory reading and radio transmission periodically with the specific interval.
+The provided APIs in C language are summarized as follows.
 
-The provided APIs are summarized as follows.
 \subsubsection{System}
 \textit{uint16\_t* getPatchList()}: Get the list of attached patches on the device.
 \vspace{10pt}
@@ -363,6 +363,12 @@ The provided APIs are summarized as follows.
 \newline
 
 \subsubsection{Sensor}
+\textit{bool isAttached(uint8\_t patch)}: Determine whether a patch is attached on the device or not.
+\vspace{10pt}
+\newline
+\textit{void detached(uint8\_t patch)}: The callback function is invoked when a patch is detached.
+\vspace{10pt}
+\newline
 \textit{uint16\_t readTemp()}: Read temperature data from thermal patch.
 \vspace{10pt}
 \newline
@@ -379,10 +385,79 @@ The provided APIs are summarized as follows.
 \vspace{10pt}
 \newline
 
+\subsubsection{Interaction patch}
+\textit{void writeChars(uint8\_t *chars, uint8\_t size)}: Write characters on the OLED display with specific size.
+\vspace{10pt}
+\newline
+\textit{void drawIcon(uint8\_t *icon)}: Draw an icon on the OLED display represented by bitmap format.
+\vspace{10pt}
+\newline
+\textit{void isGesture(uint8\_t gesture)}: Check whether a specific gesture is detected.
+\vspace{10pt}
+\newline
+\textit{void gesture(uint8\_t gesture)}: The callback function is invoked when a gesture is detected.
+\vspace{10pt}
+\newline
 
+\subsubsection{BluetoothLE radio}
+\textit{void bleConnected(uint8\_t *centralAddress)}: The callback function is invoked when a central device has connected with this device.
+\vspace{10pt}
+\newline
+\textit{void bleDisconnected(uint8\_t *centralAddress)}: The callback function is invoked when a central device has disconnected with this device.
+\vspace{10pt}
+\newline
+\textit{void send(uint8\_t type, uint8\_t  length, uint8\_t *data)}: Send data to central device trough Bluetooth radio.
+\vspace{10pt}
+\newline
+\textit{void received(uint8\_t type, uint8\_t  length, uint8\_t *data)}: The callback function is invoked when received a command from central device trough Bluetooth radio.
+\vspace{10pt}
+\newline
 
 \subsection{Phone APIs}
+The BioScope system provides APIs on Android platform for collecting sensory data and accessing the BioScope device.
+The phone APIs consists of two classes: \textit{BioScopeBle} and \textit{BioScopeBleListener}.
+The \textit{BioScopeBle} is the class that provides the functions to communicate with BioScope device through Bluetooth radio.
+The \textit{BioScopeBleListener} is the interface class that allows developers to implement the callback functions of communication with BioScope device in their codes. The provided APIs in Java language are summarized as follows.
 
+\subsubsection{BioScopeBle}
+\textit{BioScopeBle(String device)}: The constructor of the class is used to new an object for communicating with specific BioScope device.
+\vspace{10pt}
+\newline
+\textit{void connect()}: Start to establish connection with the BioScope device.
+\vspace{10pt}
+\newline
+\textit{void disconnect()}: Disconnect an existed connection with the BioScope device.
+\vspace{10pt}
+\newline
+\textit{void writeCharacteristic(int type, byte[] command)}: Write the command to a characteristic on the BioScope device.
+\vspace{10pt}
+\newline
+\textit{int[] getPatchList()}: Get the list of attached patches on the BioScope device.
+\vspace{10pt}
+\newline
+
+\subsubsection{BioScopeBleListener}
+\textit{void bleNotSupported()}: The callback function is invoked if BLE is not supported in this device.
+\vspace{10pt}
+\newline
+\textit{void bleConnectionTimeout()}: The callback function is invoked when the connection establishment is timeout (10 sec).
+\vspace{10pt}
+\newline
+\textit{void bleConnected()}: The callback function is invoked when the connection establishment is success.
+\vspace{10pt}
+\newline
+\textit{void bleDisconnected()}: The callback function is invoked when the established connection is disconnect.
+\vspace{10pt}
+\newline
+\textit{void bleWriteSuccess()}: The callback function is invoked when the execution of the \textit{writeCharacteristic} method is success.
+\vspace{10pt}
+\newline
+\textit{void bleWriteStateFail()}: The callback function is invoked when the execution of the \textit{writeCharacteristic} method is fail.
+\vspace{10pt}
+\newline
+\textit{void bleDataReceived(int type, byte[] data)}: The callback function is invoked when the data sent from BioScope device are received.
+\vspace{10pt}
+\newline
 
 \section{Summary}
 In this chapter, we introduced BioScope, a flexible and extensible wearable platform designed to facilitate rapidly prototyping of the design process.
